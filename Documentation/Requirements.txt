@@ -1,0 +1,31 @@
+Max Size: 
+    Length: 80mm
+    Width: ~110mm
+    Height:~140mm
+    Weight: No Max, just do it as light as possible.
+Cost:
+    Max Cost:
+Voltages:
+    Input Nominal: 22.2-22.8 (Different for the two batteries)
+    Input Range:
+    Output Nominal: 22.2-22.8 when active, and open when inactive or charging
+    Output Range:
+Limits:
+    Max Capacitance:
+    Max Energy:
+    Time to Charge:
+    Time to Discharge:
+    Max Current Output:
+    Max Current Input:
+Misc:
+    Only Passive Cooling?:
+    Input Connector(s):
+    Output Connector(s):
+    Controlling Input(s):
+    Controlling Output(s):
+Specifics:
+    Turn off Voltage:
+        Voltage over the cap bank when it will no longer try to discharge
+    Minimum Footprint:
+    Maximum Footprint:
+    Layers: Attempt 2, but can go more. 
