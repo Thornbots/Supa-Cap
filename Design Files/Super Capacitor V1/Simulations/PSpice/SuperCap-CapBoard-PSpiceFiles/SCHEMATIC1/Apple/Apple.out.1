@@ -1,0 +1,47 @@
+
+**** 10/18/24 13:29:04 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Apple"  [ C:\Users\teaneyje\Documents\Supa-Cap\Design Files\Super Capacitor V1\Simulations\PSpice\SuperCap-C
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Apple.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\teaneyje\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "C:\Users\teaneyje\OneDrive - Rose-Hulman Institute of Technology\Documents\Classes\RHIT_Libraries\Class.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source SUPERCAP-CAPBOARD
+X_D2         V_24 0 Ideal_Zener PARAMS:
++BV=15, VF=0.7
+I_I1         0 V_24 DC 7
+C_C7         0 N13539 26 
+X_U2         N13533 N13539 Sw_tClose PARAMS: tClose=5 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+R_R1         N13539 0 10k 
+
+**** RESUMING Apple.cir ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N13533.
+

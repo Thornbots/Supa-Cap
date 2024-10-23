@@ -1,0 +1,25 @@
+{ Using PSTWRITER 17.4.0 d001Oct-17-2024 at 15:16:37 }
+
+#1 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R17: SCHEMATIC1, PAGE1 (5.80, 7.80) .
+#2 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R4: SCHEMATIC1, PAGE1 (4.50, 2.50) .
+#3 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R14: SCHEMATIC1, PAGE1 (5.80, 6.60) .
+#4 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R3: SCHEMATIC1, PAGE1 (4.50, 1.30) .
+#5 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R15: SCHEMATIC1, PAGE1 (4.50, 6.70) .
+#6 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R2: SCHEMATIC1, PAGE1 (4.50, 1.90) .
+#7 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R1: SCHEMATIC1, PAGE1 (5.80, 1.80) .
+#8 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R18: SCHEMATIC1, PAGE1 (4.50, 7.90) .
+#9 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R19: SCHEMATIC1, PAGE1 (6.00, 1.10) .
+#10 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R9: SCHEMATIC1, PAGE1 (4.50, 4.30) .
+#11 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R12: SCHEMATIC1, PAGE1 (4.50, 5.50) .
+#12 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R8: SCHEMATIC1, PAGE1 (5.80, 4.20) .
+#13 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R13: SCHEMATIC1, PAGE1 (4.50, 6.10) .
+#14 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R20: SCHEMATIC1, PAGE1 (1.00, 3.10) .
+#15 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R10: SCHEMATIC1, PAGE1 (4.50, 4.90) .
+#16 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R7: SCHEMATIC1, PAGE1 (4.50, 3.70) .
+#17 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R11: SCHEMATIC1, PAGE1 (5.80, 5.40) .
+#18 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R6: SCHEMATIC1, PAGE1 (4.50, 3.10) .
+#19 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R16: SCHEMATIC1, PAGE1 (4.50, 7.30) .
+#20 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R5: SCHEMATIC1, PAGE1 (5.80, 3.00) .
+#21 INFO(ORCAP-36107):  PCB Editor does not support Dots(.), Forward Slash(/) and White space in footprint names. The supported characters include Alphabets, Numerics, Underscore(_) and Hyphen(-).
+
+#22 ERROR(ORCAP-36018): Netlisting cannot complete because of the errors listed above in the session log. Correct the errors and netlist design.
