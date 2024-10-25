@@ -5214,7 +5214,7 @@
 		(at 177.419 30.5 180)
 		(tags "TEH100M2R00FE ")
 		(property "Reference" "R13"
-			(at 0 -4.5 0)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "489113d7-2a65-4dcf-9922-878d48832c6f")
@@ -6810,7 +6810,7 @@
 		(uuid "d57d8ef4-c2ac-45b7-a38c-5618357bf6a2")
 		(at 173 63 -90)
 		(property "Reference" "J1"
-			(at 0 -4 90)
+			(at 0 7.5 90)
 			(layer "F.SilkS")
 			(uuid "29b1442d-0417-4455-85fc-0b85de2caaa0")
 			(effects
@@ -7690,16 +7690,17 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 169 34)
-		(end 196.5 55)
+	(gr_poly
+		(pts
+			(xy 169 34) (xy 196.5 34) (xy 196.5 51.5) (xy 196.5 73) (xy 178.5 73) (xy 178.5 55) (xy 169 55)
+		)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.Cu")
-		(uuid "7ad5edb2-fb74-4aec-af68-0d83a4fdf3c0")
+		(uuid "50e9489d-6af0-4d83-b126-59df6b0dc483")
 	)
 	(gr_rect
 		(start 139 156.5)
@@ -7755,6 +7756,17 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "bd097457-4975-4a10-a611-b11b8da8f773")
+	)
+	(gr_rect
+		(start 169 34)
+		(end 186 55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "fa20ba75-40d1-4e38-acf5-cd3031efa8c1")
 	)
 	(gr_circle
 		(center 70 38)
@@ -8045,6 +8057,18 @@
 		(layer "Edge.Cuts")
 		(uuid "fbd4b7a8-596a-4314-8efe-e504f5ef3538")
 	)
+	(gr_text "Positive"
+		(at 177 62 90)
+		(layer "F.SilkS")
+		(uuid "16c30430-e958-41dd-90e2-6552de0938c3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "CAN-F\nRef System"
 		(at 175 156 0)
 		(layer "F.SilkS")
@@ -8103,6 +8127,30 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "Negative"
+		(at 177 67.5 90)
+		(layer "F.SilkS")
+		(uuid "a09054cf-0c8e-4018-b607-7743f3fbb293")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Do NOT EXCEED:\n7A or 15V\nYOU WILL BLOW UP A\nTRACE OR A CAPACITOR"
+		(at 187.5 66 0)
+		(layer "F.SilkS")
+		(uuid "caca7e7e-0d0e-4ba3-ac38-650125843d58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
 		)
 	)
 	(gr_text "Connections\nOn This Side\n"
