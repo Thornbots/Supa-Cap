@@ -6709,7 +6709,7 @@
 			)
 		)
 		(property "Footprint" "PassiveBankV1:680 Resistor"
-			(at -5.44437 -0.0475 360)
+			(at -5.44437 -0.0475 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "68a77ec7-cc4c-4e13-84df-d7110686fbee")
@@ -6722,7 +6722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -5.44437 -0.0475 360)
+			(at -5.44437 -0.0475 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1811f791-28a7-47dc-8b9c-cb876f318dac")
@@ -6735,7 +6735,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at -5.44437 -0.0475 360)
+			(at -5.44437 -0.0475 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b53e0743-aa42-4c66-9b64-4666dda186ae")
@@ -7025,7 +7025,7 @@
 			)
 		)
 		(property "Footprint" "PassiveBankV1:10mm LED"
-			(at -1.331012 0.061012 360)
+			(at -1.331012 0.061012 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cca11045-110f-4547-8661-13a032f4f091")
@@ -7038,7 +7038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -1.331012 0.061012 360)
+			(at -1.331012 0.061012 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4138689f-f6c4-4b91-b188-91b8355a44ef")
@@ -7051,7 +7051,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at -1.331012 0.061012 360)
+			(at -1.331012 0.061012 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "394af2d3-f8d4-4376-8a51-196eba6757a5")
@@ -7485,7 +7485,7 @@
 			)
 		)
 		(property "Footprint" "PassiveBankV1:100Watt2"
-			(at -5.081 0 360)
+			(at -5.081 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "926fcb9d-4ba8-48bb-9b81-e42739b34c25")
@@ -7498,7 +7498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -5.081 0 360)
+			(at -5.081 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d9512e7e-c274-4fdb-88df-d6fdf1ce0d4b")
@@ -7511,7 +7511,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at -5.081 0 360)
+			(at -5.081 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "421696ef-7d2c-4346-b488-4a3e0dd6904c")
@@ -7963,7 +7963,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 229.67 56.21) (xy 202.67 56.21) (xy 202.67 98.21) (xy 221.17 98.21) (xy 221.17 81.21) (xy 229.67 81.21)
+			(xy 232.1 57.55) (xy 205.1 57.55) (xy 205.1 99.55) (xy 223.6 99.55) (xy 223.6 82.55) (xy 232.1 82.55)
 		)
 		(stroke
 			(width 0.1)
@@ -8030,8 +8030,8 @@
 		(uuid "bd097457-4975-4a10-a611-b11b8da8f773")
 	)
 	(gr_rect
-		(start 195.42 52.77)
-		(end 179.42 73.77)
+		(start 179.42 52.77)
+		(end 195.42 73.77)
 		(stroke
 			(width 0.05)
 			(type solid)
