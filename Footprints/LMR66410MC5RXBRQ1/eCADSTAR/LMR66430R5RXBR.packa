@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LMR66410MC5RXBRQ1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-05-07-15:13:09)
+    (mountForm default
+        (footprintRef "LMR66430R5RXBR")
+        (spec "System")
+    )
+)

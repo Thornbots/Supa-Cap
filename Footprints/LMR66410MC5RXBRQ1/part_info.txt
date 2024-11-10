@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LMR66410MC5RXBRQ1
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=19
+Version=1.3
+Released=2024-07-24 10:57:03
+Downloaded=2024-11-10 21:54:50
+3D=Y
