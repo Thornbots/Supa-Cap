@@ -668,6 +668,10 @@
     [
       "e0c606b8-cbb9-4aff-b96c-73876da6ca74",
       "Root"
+    ],
+    [
+      "e33a9390-58bb-4e98-90e4-3dcddb5af9e9",
+      "5V_PSU"
     ]
   ],
   "text_variables": {}
