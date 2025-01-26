@@ -35,6 +35,36 @@
 				(justify left top)
 			)
 		)
+		(pin "IOUT" input
+			(at 109.22 57.912 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6543f307-35fc-4c99-b718-152208e5bbee")
+		)
+		(pin "GND" input
+			(at 109.22 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "84a4fcb0-83bb-4f29-afac-b00f4019670b")
+		)
+		(pin "VIN" input
+			(at 109.22 64.516 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4e9c958-0eb4-4611-8df1-8c377b6650d7")
+		)
 		(instances
 			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74"
