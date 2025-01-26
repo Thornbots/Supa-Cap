@@ -11,7 +11,7 @@
 		(title "Supercapacitor Bank v1")
 		(rev "1.0")
 		(company "Rose-Hulman Institute of Technology")
-		(comment 1 "12/18 Initial Release")
+		(comment 1 "1/26/2025 Initial Release")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -8610,7 +8610,7 @@
 			(at 0 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "c8695b75-e313-43f3-b553-246972ef8c7b")
+			(uuid "281ada8a-3522-47ff-8dd9-1ea9766dae12")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -8623,7 +8623,7 @@
 			(at 0.75 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "48012f76-f3c2-4ca1-a627-4ecfd65ea4a9")
+			(uuid "9df12e6d-1516-4bb7-92ca-5e6d19ebd3ec")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -8718,7 +8718,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "0c5af68e-ef83-47b5-9465-03bc75554fa5")
+			(uuid "b2c78617-f3d9-4757-81f8-795c4b099193")
 		)
 		(fp_poly
 			(pts
@@ -8764,7 +8764,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "4717a047-9366-49bb-8ea6-a4d6bf0aad43")
+			(uuid "e70816a7-5db7-47bd-9afa-dea8bd40f9d2")
 		)
 		(fp_poly
 			(pts
@@ -8813,7 +8813,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "84b6a53c-3f77-4edf-aaef-1ed08cb4b8a2")
+			(uuid "c970f26b-4959-47f7-a272-d9c47c8cde5c")
 		)
 		(fp_poly
 			(pts
@@ -8869,7 +8869,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "d7a346e7-2e8f-44da-a8ac-5ef51759c8fc")
+			(uuid "634a234d-5fd5-4999-a5ff-593524d7fa3e")
 		)
 		(fp_poly
 			(pts
@@ -9033,7 +9033,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "ce15bac3-5a03-4c93-9809-e1d9e93726d7")
+			(uuid "bab7a084-bfea-4153-9dde-5e4cf1493172")
 		)
 	)
 	(footprint "PassiveBankV1:20kResistor"
@@ -11121,17 +11121,6 @@
 		)
 	)
 	(gr_rect
-		(start 64.9816 92.325)
-		(end 93.828 108.835)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "B.SilkS")
-		(uuid "fcb21935-a055-48ca-b7d6-7ad137ddd05e")
-	)
-	(gr_rect
 		(start 64.9796 92.286)
 		(end 93.826 108.796)
 		(stroke
@@ -11139,8 +11128,63 @@
 			(type default)
 		)
 		(fill none)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "78e875fa-280a-4364-a444-62b6c4bc07e7")
+	)
+	(gr_rect
+		(start 52.246 87.438)
+		(end 58.746 95.938)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "355186cf-fe7a-45b3-9043-5ac851e680a5")
+	)
+	(gr_rect
+		(start 51.746 71.438)
+		(end 107.746 99.438)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6d1faa60-2446-4635-b66f-0da7d45e4c76")
+	)
+	(gr_rect
+		(start 52.246 75.438)
+		(end 58.746 83.938)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "76dc7bf3-4dc8-4396-bf82-cdbc35aa106a")
+	)
+	(gr_rect
+		(start 100.496 74.938)
+		(end 106.996 83.438)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "897b93b1-177e-45d0-8bd0-5429495498e5")
+	)
+	(gr_rect
+		(start 103.746 88.938)
+		(end 106.746 95.438)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "bd097457-4975-4a10-a611-b11b8da8f773")
 	)
 	(gr_rect
 		(start 65.192 92.456)
@@ -11152,61 +11196,6 @@
 		(fill solid)
 		(layer "B.Mask")
 		(uuid "fa20ba75-40d1-4e38-acf5-cd3031efa8c1")
-	)
-	(gr_rect
-		(start 52.246 87.438)
-		(end 58.746 95.938)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "355186cf-fe7a-45b3-9043-5ac851e680a5")
-	)
-	(gr_rect
-		(start 51.746 71.438)
-		(end 107.746 99.438)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "6d1faa60-2446-4635-b66f-0da7d45e4c76")
-	)
-	(gr_rect
-		(start 52.246 75.438)
-		(end 58.746 83.938)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "76dc7bf3-4dc8-4396-bf82-cdbc35aa106a")
-	)
-	(gr_rect
-		(start 100.496 74.938)
-		(end 106.996 83.438)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "897b93b1-177e-45d0-8bd0-5429495498e5")
-	)
-	(gr_rect
-		(start 103.746 88.938)
-		(end 106.746 95.438)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Cmts.User")
-		(uuid "bd097457-4975-4a10-a611-b11b8da8f773")
 	)
 	(gr_circle
 		(center 60.746 95.438)
@@ -13605,6 +13594,42 @@
 			)
 		)
 	)
+	(gr_text "CAN-F\nRef System"
+		(at 94.78 91.53 0)
+		(layer "F.SilkS")
+		(uuid "1a40edcd-550f-4a3f-b049-9db252089e15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "XT30-M\nCap Bank"
+		(at 92.66 81.63 0)
+		(layer "F.SilkS")
+		(uuid "2005ca60-1446-4915-bcbe-82f1de2ab7c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "XT30-F\nPower In/Out"
+		(at 59.8 82 0)
+		(layer "F.SilkS")
+		(uuid "33c59452-42f4-4074-ae36-414405a7ceea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "T\nH\nO\nR\nN\nB\nO\nT\nS"
 		(at 120.396 87.63 0)
 		(layer "F.SilkS" knockout)
@@ -13922,6 +13947,18 @@
 				(bold yes)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "XT30-F\nPre-Inspection"
+		(at 59.47 91.95 0)
+		(layer "F.SilkS")
+		(uuid "6706ae49-c7aa-4b47-a0a6-5f45dce6c8d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "Discharge         Open"
@@ -16233,7 +16270,7 @@
 		)
 	)
 	(gr_text "Caution!\nArea may be hot!"
-		(at 81.9338 101.659 0)
+		(at 81.39 107.4 0)
 		(layer "F.SilkS")
 		(uuid "a01802e2-7f5d-4ec9-8de2-6eafd455eae0")
 		(effects
@@ -16256,54 +16293,6 @@
 				(bold yes)
 			)
 			(justify bottom)
-		)
-	)
-	(gr_text "CAN-F\nRef System"
-		(at 94.786 93.648 0)
-		(layer "Cmts.User")
-		(uuid "1a40edcd-550f-4a3f-b049-9db252089e15")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "XT30-M\nCap Bank"
-		(at 92.466 80.258 0)
-		(layer "Cmts.User")
-		(uuid "2005ca60-1446-4915-bcbe-82f1de2ab7c6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "XT30-F\nPower In/Out"
-		(at 59.236 80.408 0)
-		(layer "Cmts.User")
-		(uuid "33c59452-42f4-4074-ae36-414405a7ceea")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "XT30-F\nPre-Inspection"
-		(at 59.236 93.728 0)
-		(layer "Cmts.User")
-		(uuid "6706ae49-c7aa-4b47-a0a6-5f45dce6c8d6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
 		)
 	)
 	(segment
