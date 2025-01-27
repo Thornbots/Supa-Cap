@@ -484,7 +484,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Manufacturing/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Passive Cap Bank V1.step",

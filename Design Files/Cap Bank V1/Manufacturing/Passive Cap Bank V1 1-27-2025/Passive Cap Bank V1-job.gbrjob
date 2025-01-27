@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.5"
+      "Version": "8.0.8"
     },
-    "CreationDate": "2024-12-06T09:36:11-05:00"
+    "CreationDate": "2025-01-27T11:22:29-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Passive Cap Bank V1",
       "GUID": "50617373-6976-4652-9043-61702042616e",
-      "Revision": "rev?"
+      "Revision": "1.0"
     },
     "Size": {
-      "X": 76.1,
-      "Y": 122.1
+      "X": 75.1,
+      "Y": 125.1
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,7 +27,9 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 1.25
+      "MinLineWidth": 1.25,
+      "TrackToRegion": 2.0,
+      "RegionToRegion": 2.0
     }
   ],
   "FilesAttributes": [
@@ -60,16 +62,6 @@
       "Path": "Passive Cap Bank V1-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Passive Cap Bank V1-F_Mask.gbr",
-      "FileFunction": "SolderMask,Top",
-      "FilePolarity": "Negative"
-    },
-    {
-      "Path": "Passive Cap Bank V1-B_Mask.gbr",
-      "FileFunction": "SolderMask,Bot",
-      "FilePolarity": "Negative"
     },
     {
       "Path": "Passive Cap Bank V1-Edge_Cuts.gbr",
