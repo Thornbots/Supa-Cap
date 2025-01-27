@@ -1,0 +1,81 @@
+(footprint "MountingHole_1.8mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, no annular, M3")
+	(tags "mounting hole 3.2mm no annular m3")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "218f0180-43e6-440e-95c8-a4c9bf040c76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" " "
+		(at 0 1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61d57570-b0b5-4c97-b554-78275c0b3d7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "MountingHole:MountingHole_1.8mm"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6002881a-432b-4d7c-94fe-dfa78130f8b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb9adf7d-9a71-49d4-907f-404cc64d47a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85ec6972-c91d-41b0-87e8-3c12fda44739")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(pad "" np_thru_hole circle
+		(at 0.02 0)
+		(size 2.8 2.8)
+		(drill 1.8)
+		(layers "F&B.Cu" "*.Mask")
+		(clearance 2)
+		(uuid "6e072fd1-ff10-48a5-b5e3-595620f52418")
+	)
+)
