@@ -708,6 +708,10 @@
     [
       "e33a9390-58bb-4e98-90e4-3dcddb5af9e9",
       "5V_PSU"
+    ],
+    [
+      "ba5c2d63-7c4b-497a-9de4-bddeb8ed5de8",
+      "IO"
     ]
   ],
   "text_variables": {}

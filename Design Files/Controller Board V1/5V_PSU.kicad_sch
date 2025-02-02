@@ -463,12 +463,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Switching Voltage Regulators SIMPLE SWITCHER power converter 4.5-V to 36-V, 2-A, synchronous buck with 40-uA IQ"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -493,16 +494,6 @@
 				)
 			)
 			(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMR51420XDDCR?qs=vvQtp7zwQdN6fBqQU4azxw%3D%3D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "Switching Voltage Regulators SIMPLE SWITCHER power converter 4.5-V to 36-V, 2-A, synchronous buck with 40-uA IQ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1220,7 +1211,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 228.346 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1232,7 +1222,6 @@
 	(hierarchical_label "IOUT"
 		(shape input)
 		(at 228.346 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1244,7 +1233,6 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 77.47 99.822 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1256,7 +1244,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 77.47 102.362 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1711,10 +1698,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d73e5dae-6266-4ea8-bd8b-0fea67a11739")
+			(uuid "d73e5dae-6266-4ea8-bd8b-0fea67a1173a")
 		)
 		(pin "2"
-			(uuid "64f7327d-352f-408f-a6bb-80a115ce97c0")
+			(uuid "64f7327d-352f-408f-a6bb-80a115ce97c1")
 		)
 		(instances
 			(project ""
