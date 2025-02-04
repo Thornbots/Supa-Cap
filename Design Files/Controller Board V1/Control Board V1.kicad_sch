@@ -55,16 +55,6 @@
 			)
 			(uuid "78be17ea-1d43-4533-b01d-fdcf99b41951")
 		)
-		(pin "bottom_out" input
-			(at 128.27 154.94 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e75400d7-b1ce-457e-8772-a52fd46ff19e")
-		)
 		(pin "to_xt30_capBank" input
 			(at 106.68 137.16 180)
 			(effects
@@ -124,6 +114,26 @@
 				(justify right)
 			)
 			(uuid "0926a9b9-c7b8-438c-a6e2-858c879957a6")
+		)
+		(pin "GND" input
+			(at 106.68 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "05faf639-c02a-40d9-9364-9b700a4a6c94")
+		)
+		(pin "24V" input
+			(at 106.68 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b54c47fb-1859-4e40-8a97-240a32a6deb4")
 		)
 		(instances
 			(project "Control Board V1"

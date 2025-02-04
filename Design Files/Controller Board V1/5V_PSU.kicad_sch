@@ -1211,6 +1211,7 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 228.346 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1222,6 +1223,7 @@
 	(hierarchical_label "IOUT"
 		(shape input)
 		(at 228.346 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1233,6 +1235,7 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 77.47 99.822 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1244,6 +1247,7 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 77.47 102.362 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1262,7 +1266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26fea2a5-1339-45a4-90c5-434f729d2d34")
-		(property "Reference" "Cinx"
+		(property "Reference" "Cinx1"
 			(at 122.682 101.3459 0)
 			(effects
 				(font
@@ -1361,7 +1365,7 @@
 		(instances
 			(project ""
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
-					(reference "Cinx")
+					(reference "Cinx1")
 					(unit 1)
 				)
 			)
@@ -1377,7 +1381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36aca292-ea73-449b-ba46-19a933f6b627")
-		(property "Reference" "Rfbt"
+		(property "Reference" "Rfbt1"
 			(at 191.262 91.6939 0)
 			(effects
 				(font
@@ -1476,7 +1480,7 @@
 		(instances
 			(project ""
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
-					(reference "Rfbt")
+					(reference "Rfbt1")
 					(unit 1)
 				)
 			)
@@ -1492,7 +1496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b64ae37-fd5f-4a5a-97b6-ce99e74a0d4e")
-		(property "Reference" "Cboot"
+		(property "Reference" "Cboot1"
 			(at 177.546 78.4859 0)
 			(effects
 				(font
@@ -1591,7 +1595,7 @@
 		(instances
 			(project ""
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
-					(reference "Cboot")
+					(reference "Cboot1")
 					(unit 1)
 				)
 			)
@@ -1607,7 +1611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "428bdd4f-c785-4305-987d-b8cea01e1201")
-		(property "Reference" "Cin"
+		(property "Reference" "Cin1"
 			(at 108.204 101.5999 0)
 			(effects
 				(font
@@ -1706,7 +1710,7 @@
 		(instances
 			(project ""
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
-					(reference "Cin")
+					(reference "Cin1")
 					(unit 1)
 				)
 			)
@@ -1722,7 +1726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "891258a8-06b3-4ebc-8eb6-ea493e110752")
-		(property "Reference" "Cout"
+		(property "Reference" "Cout1"
 			(at 209.296 101.5999 0)
 			(effects
 				(font
@@ -1821,7 +1825,7 @@
 		(instances
 			(project ""
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
-					(reference "Cout")
+					(reference "Cout1")
 					(unit 1)
 				)
 			)
@@ -2215,7 +2219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe1f245e-e92b-4dbc-89a3-3d21ed702294")
-		(property "Reference" "Rfbb"
+		(property "Reference" "Rfbb1"
 			(at 191.262 108.4579 0)
 			(effects
 				(font
@@ -2314,7 +2318,7 @@
 		(instances
 			(project ""
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
-					(reference "Rfbb")
+					(reference "Rfbb1")
 					(unit 1)
 				)
 			)
