@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "XT30PW-F"
+	(symbol "XT30PW-M"
 		(pin_names
 			(offset 1.016)
 		)
@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -7.62 3.81 0)
+			(at -7.62 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,7 +18,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "XT30PW-F"
+		(property "Value" "XT30PW-M"
 			(at -7.62 -7.62 0)
 			(effects
 				(font
@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "XT30PW-F:AMASS_XT30PW-F"
+		(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55,7 +55,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "amass"
+		(property "MF" "AMASS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -95,7 +95,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
 			(at 0 0 0)
 			(effects
 				(font
@@ -125,7 +125,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135,7 +135,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "XT30PW-F"
+		(property "MP" "XT30PW-M"
 			(at 0 0 0)
 			(effects
 				(font
@@ -145,7 +145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; yellow; 15A\n                        \n"
+		(property "Description_1" "\nSocket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow\n"
 			(at 0 0 0)
 			(effects
 				(font
@@ -175,7 +175,7 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "XT30PW-F"
+		(property "SNAPEDA_PN" "XT30PW-M"
 			(at 0 0 0)
 			(effects
 				(font
@@ -185,29 +185,27 @@
 				(hide yes)
 			)
 		)
-		(symbol "XT30PW-F_0_0"
-			(arc
-				(start -1.905 -3.175)
-				(mid -1.2727 -2.54)
-				(end -1.905 -1.905)
+		(symbol "XT30PW-M_0_0"
+			(rectangle
+				(start -2.2225 -2.8575)
+				(end -0.635 -2.2225)
 				(stroke
-					(width 0.254)
+					(width 0.1)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
-			(arc
-				(start -1.905 -0.635)
-				(mid -1.2727 0)
-				(end -1.905 0.635)
+			(rectangle
+				(start -2.2225 -0.3175)
+				(end -0.635 0.3175)
 				(stroke
-					(width 0.254)
+					(width 0.1)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
@@ -260,7 +258,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy -1.27 -2.54)
+					(xy 0 -2.54) (xy -1.905 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -272,7 +270,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy -1.27 0)
+					(xy 0 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0.254)
@@ -355,7 +353,7 @@
 				)
 			)
 		)
-		(symbol "XT30PW-F_1_1"
+		(symbol "XT30PW-M_1_1"
 			(pin passive line
 				(at -3.81 5.08 270)
 				(length 2.54)
@@ -366,7 +364,7 @@
 						)
 					)
 				)
-				(number "S1"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -384,7 +382,7 @@
 						)
 					)
 				)
-				(number "S2"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
