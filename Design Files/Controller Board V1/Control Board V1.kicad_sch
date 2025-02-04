@@ -6,6 +6,134 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 106.68 125.73)
+		(size 40.64 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6c70f8b-d576-48c3-bfc7-6e0bdb401246")
+		(property "Sheetname" "LMG5200"
+			(at 106.68 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LMG5200.kicad_sch"
+			(at 106.68 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "sig-gnd" input
+			(at 147.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f51c62f5-8284-48bd-9d97-e66b62cc87f6")
+		)
+		(pin "5V" input
+			(at 135.89 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78be17ea-1d43-4533-b01d-fdcf99b41951")
+		)
+		(pin "bottom_out" input
+			(at 128.27 154.94 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e75400d7-b1ce-457e-8772-a52fd46ff19e")
+		)
+		(pin "to_xt30_capBank" input
+			(at 106.68 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a216345b-ff76-466d-a579-a4df1f05570d")
+		)
+		(pin "ADC3" input
+			(at 113.03 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e6739177-0fac-4518-b214-7615b9f394c7")
+		)
+		(pin "ADC2" input
+			(at 116.84 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "20c8075d-554a-4607-8548-a0d2190dbeca")
+		)
+		(pin "PWM_top" input
+			(at 147.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d5a86c69-8531-4899-8bc1-be3d606c9401")
+		)
+		(pin "PWM_bottom" input
+			(at 147.32 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98499a58-59ca-44f1-ae29-da4047b62963")
+		)
+		(pin "ADC1" input
+			(at 120.65 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0926a9b9-c7b8-438c-a6e2-858c879957a6")
+		)
+		(instances
+			(project "Control Board V1"
+				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 177.8 68.58)
 		(size 35.56 21.59)
 		(fields_autoplaced yes)
