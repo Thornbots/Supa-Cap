@@ -1,0 +1,104 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0a5c1c8d-eca8-4504-9231-490b70e824d5")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "PWM_bottom"
+		(shape input)
+		(at 162.56 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a915bf4-095f-4ff9-8985-0a0f4315a5c7")
+	)
+	(hierarchical_label "sig_gnd"
+		(shape input)
+		(at 116.84 106.68 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e3615bc-176c-4a73-9a34-5dcbd0df38ee")
+	)
+	(hierarchical_label "inv"
+		(shape input)
+		(at 92.71 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21f191de-138a-4a8e-aeab-6678045ea4df")
+	)
+	(hierarchical_label "I2C_TypeC"
+		(shape input)
+		(at 162.56 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65a3736e-45b6-41cc-bd1b-4f0db0776a2a")
+	)
+	(hierarchical_label "SPI_ADC"
+		(shape input)
+		(at 162.56 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bcda375-fe5c-4f78-9b10-9501c4b15663")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 116.84 52.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa463e81-613a-4ad9-bf5b-522eaf895c33")
+	)
+	(hierarchical_label "PWM_top"
+		(shape input)
+		(at 162.56 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3c43372-978e-46ce-9b47-d3c4d1892798")
+	)
+	(hierarchical_label "buffer"
+		(shape input)
+		(at 92.71 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de5eaa9a-86ae-4db5-bb12-5e8292cf6566")
+	)
+)

@@ -249,6 +249,124 @@
 			)
 		)
 	)
+	(sheet
+		(at 35.56 96.52)
+		(size 39.37 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8a5c247-59d0-485f-ba68-49c029e1cec5")
+		(property "Sheetname" "pico"
+			(at 35.56 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pico.kicad_sch"
+			(at 35.56 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 35.56 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "945e924c-0003-4029-bf4b-3d884eb35b7c")
+		)
+		(pin "PWM_top" input
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "974228d3-ba05-4072-94c2-d58c7d779ed1")
+		)
+		(pin "PWM_bottom" input
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "03c93580-3a83-41ac-83cd-3d28aa1788ab")
+		)
+		(pin "I2C_TypeC" input
+			(at 74.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5a1b2a1e-aa37-419e-986e-2673ae4e3b4d")
+		)
+		(pin "SPI_ADC" input
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "042befe1-0033-484a-b1d4-54e910a97056")
+		)
+		(pin "sig_gnd" input
+			(at 35.56 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8f72968-a000-4ff8-a7b9-35824e00f3cf")
+		)
+		(pin "inv" input
+			(at 35.56 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eaf5c472-72d7-415f-bccc-fa0fd4fb8885")
+		)
+		(pin "buffer" input
+			(at 35.56 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ba99a54d-93b0-4d43-a6d4-d0d1602545cf")
+		)
+		(instances
+			(project "Control Board V1"
+				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
