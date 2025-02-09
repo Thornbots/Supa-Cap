@@ -1211,6 +1211,7 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 228.346 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1222,6 +1223,7 @@
 	(hierarchical_label "IOUT"
 		(shape input)
 		(at 228.346 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1233,6 +1235,7 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 77.47 99.822 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1244,6 +1247,7 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 77.47 102.362 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1359,7 +1363,7 @@
 			(uuid "64f7327d-352f-408f-a6bb-80a115ce97c0")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
 					(reference "Cinx")
 					(unit 1)
@@ -1474,7 +1478,7 @@
 			(uuid "aa2699ab-1654-43ff-8cfe-f5bad924c077")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
 					(reference "Rfbt")
 					(unit 1)
@@ -1589,7 +1593,7 @@
 			(uuid "609a5844-7e2d-4aa2-8008-79e24d945c63")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
 					(reference "Cboot")
 					(unit 1)
@@ -1704,7 +1708,7 @@
 			(uuid "64f7327d-352f-408f-a6bb-80a115ce97c1")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
 					(reference "Cin")
 					(unit 1)
@@ -1819,7 +1823,7 @@
 			(uuid "4f011398-b48b-45f2-b5be-9d4547c7002d")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
 					(reference "Cout")
 					(unit 1)
@@ -1931,7 +1935,7 @@
 			(uuid "87b77462-4211-400d-a3fe-96ac880d2ebd")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
 					(reference "L1")
 					(unit 1)
@@ -2197,7 +2201,7 @@
 			(uuid "007efeea-9ae7-4b07-a645-ec6f066648af")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
 					(reference "U1")
 					(unit 1)
@@ -2312,7 +2316,7 @@
 			(uuid "470dbeb2-d994-45b6-a897-645e6a855567")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
 					(reference "Rfbb")
 					(unit 1)

@@ -1188,7 +1188,7 @@
 			(uuid "91fe7911-a2a0-41ab-ad1b-ae38a390a7b2")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/ba5c2d63-7c4b-497a-9de4-bddeb8ed5de8"
 					(reference "J2")
 					(unit 1)
@@ -1387,7 +1387,7 @@
 			(uuid "afc60322-173f-4367-bd28-78c797ade887")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/ba5c2d63-7c4b-497a-9de4-bddeb8ed5de8"
 					(reference "J1")
 					(unit 1)
@@ -1586,7 +1586,7 @@
 			(uuid "22ebc242-26d5-4c7e-b687-8c61a115e934")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/ba5c2d63-7c4b-497a-9de4-bddeb8ed5de8"
 					(reference "J5")
 					(unit 1)
@@ -1785,7 +1785,7 @@
 			(uuid "303ef8ff-e9db-4156-958d-cc216686d396")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/ba5c2d63-7c4b-497a-9de4-bddeb8ed5de8"
 					(reference "J3")
 					(unit 1)
@@ -1984,7 +1984,7 @@
 			(uuid "9f93c8dc-c60d-4643-9d2b-43e844d0c079")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/ba5c2d63-7c4b-497a-9de4-bddeb8ed5de8"
 					(reference "J4")
 					(unit 1)
@@ -2177,7 +2177,7 @@
 			(uuid "ce6b4934-1919-4ff9-ac63-eadd7af85666")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/ba5c2d63-7c4b-497a-9de4-bddeb8ed5de8"
 					(reference "J8")
 					(unit 1)
@@ -2376,7 +2376,7 @@
 			(uuid "48b09328-871d-447b-a553-664bb3d9f489")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/ba5c2d63-7c4b-497a-9de4-bddeb8ed5de8"
 					(reference "J6")
 					(unit 1)
@@ -2575,7 +2575,7 @@
 			(uuid "9f0d2b9b-a740-47e0-b2ae-3a3abda7ac87")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/ba5c2d63-7c4b-497a-9de4-bddeb8ed5de8"
 					(reference "J7")
 					(unit 1)
