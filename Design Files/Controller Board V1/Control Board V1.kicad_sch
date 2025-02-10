@@ -6,6 +6,84 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 59.69 77.47)
+		(size 12.7 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "39d380bc-529d-4f9d-86d0-4a47ae8ed980")
+		(property "Sheetname" "current_sensor1"
+			(at 59.69 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensor1.kicad_sch"
+			(at 59.69 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 59.69 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2f5e0ce6-c033-4cfe-b400-c2cf209fc9f0")
+		)
+		(pin "GND" input
+			(at 59.69 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9d8a8090-3194-4cb7-a715-e45d9f95f8a3")
+		)
+		(pin "VIN+" input
+			(at 72.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e1f645fd-4c31-4152-a0c4-09bc9e7cbfb4")
+		)
+		(pin "VIN-" input
+			(at 72.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd3f58f9-b2ec-4518-bca7-3792c02b6e9e")
+		)
+		(instances
+			(project "Control Board V1"
+				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 106.68 125.73)
 		(size 40.64 29.21)
 		(fields_autoplaced yes)
@@ -54,6 +132,16 @@
 				(justify right)
 			)
 			(uuid "78be17ea-1d43-4533-b01d-fdcf99b41951")
+		)
+		(pin "bottom_out" input
+			(at 128.27 154.94 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e75400d7-b1ce-457e-8772-a52fd46ff19e")
 		)
 		(pin "to_xt30_capBank" input
 			(at 106.68 137.16 180)
@@ -115,26 +203,6 @@
 			)
 			(uuid "0926a9b9-c7b8-438c-a6e2-858c879957a6")
 		)
-		(pin "GND" input
-			(at 106.68 144.78 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "05faf639-c02a-40d9-9364-9b700a4a6c94")
-		)
-		(pin "24V" input
-			(at 106.68 148.59 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b54c47fb-1859-4e40-8a97-240a32a6deb4")
-		)
 		(instances
 			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74"
@@ -177,6 +245,84 @@
 			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 99.06)
+		(size 12.7 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "baf458a5-80d6-4ce7-aba0-1e3ff07021ab")
+		(property "Sheetname" "current_sensor2"
+			(at 59.69 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensor2.kicad_sch"
+			(at 59.69 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 59.69 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5ec27a1e-2a44-46d6-8c90-db08f4ede845")
+		)
+		(pin "VIN+" input
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a285d69-ae9d-48fb-903b-aafc06eb8f05")
+		)
+		(pin "VIN-" input
+			(at 72.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9aa700c6-6efb-439a-a035-43527310ffdd")
+		)
+		(pin "GND" input
+			(at 59.69 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5956eaae-a0f8-4d20-88cf-9dfc87953e93")
+		)
+		(instances
+			(project "Control Board V1"
+				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74"
+					(page "6")
 				)
 			)
 		)
@@ -250,8 +396,8 @@
 		)
 	)
 	(sheet
-		(at 35.56 96.52)
-		(size 39.37 24.13)
+		(at 59.69 120.65)
+		(size 12.7 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -260,9 +406,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "f8a5c247-59d0-485f-ba68-49c029e1cec5")
-		(property "Sheetname" "pico"
-			(at 35.56 95.8084 0)
+		(uuid "f9ccd444-bb08-4521-9886-c035e86d8847")
+		(property "Sheetname" "current_sensor3"
+			(at 59.69 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -270,8 +416,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pico.kicad_sch"
-			(at 35.56 121.2346 0)
+		(property "Sheetfile" "current_sensor3.kicad_sch"
+			(at 59.69 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -279,90 +425,50 @@
 				(justify left top)
 			)
 		)
-		(pin "5V" input
-			(at 35.56 100.33 180)
+		(pin "GND" input
+			(at 59.69 130.81 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "945e924c-0003-4029-bf4b-3d884eb35b7c")
+			(uuid "48a67556-9761-47d5-8e2c-13432bf609e2")
 		)
-		(pin "PWM_top" input
-			(at 74.93 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "974228d3-ba05-4072-94c2-d58c7d779ed1")
-		)
-		(pin "PWM_bottom" input
-			(at 74.93 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "03c93580-3a83-41ac-83cd-3d28aa1788ab")
-		)
-		(pin "I2C_TypeC" input
-			(at 74.93 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5a1b2a1e-aa37-419e-986e-2673ae4e3b4d")
-		)
-		(pin "SPI_ADC" input
-			(at 74.93 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "042befe1-0033-484a-b1d4-54e910a97056")
-		)
-		(pin "sig_gnd" input
-			(at 35.56 111.76 180)
+		(pin "3V3" input
+			(at 59.69 124.46 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b8f72968-a000-4ff8-a7b9-35824e00f3cf")
+			(uuid "67cc26ed-c123-42a2-a211-3cb0b9769373")
 		)
-		(pin "inv" input
-			(at 35.56 104.14 180)
+		(pin "VIN-" input
+			(at 72.39 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "eaf5c472-72d7-415f-bccc-fa0fd4fb8885")
+			(uuid "b21a7452-b23a-4596-a6f9-88e7b2d1f529")
 		)
-		(pin "buffer" input
-			(at 35.56 107.95 180)
+		(pin "VIN+" input
+			(at 72.39 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "ba99a54d-93b0-4d43-a6d4-d0d1602545cf")
+			(uuid "53320171-8b37-4411-854c-bcb461d66a62")
 		)
 		(instances
 			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74"
-					(page "5")
+					(page "7")
 				)
 			)
 		)
