@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 59.69 77.47)
+		(at 30.48 33.02)
 		(size 12.7 13.97)
 		(fields_autoplaced yes)
 		(stroke
@@ -18,7 +18,7 @@
 		)
 		(uuid "39d380bc-529d-4f9d-86d0-4a47ae8ed980")
 		(property "Sheetname" "current_sensor1"
-			(at 59.69 76.7584 0)
+			(at 30.48 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "current_sensor1.kicad_sch"
-			(at 59.69 92.0246 0)
+			(at 30.48 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 59.69 81.28 180)
+			(at 30.48 36.83 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,7 +46,7 @@
 			(uuid "2f5e0ce6-c033-4cfe-b400-c2cf209fc9f0")
 		)
 		(pin "GND" input
-			(at 59.69 87.63 180)
+			(at 30.48 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +56,7 @@
 			(uuid "9d8a8090-3194-4cb7-a715-e45d9f95f8a3")
 		)
 		(pin "VIN+" input
-			(at 72.39 81.28 0)
+			(at 43.18 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			(uuid "e1f645fd-4c31-4152-a0c4-09bc9e7cbfb4")
 		)
 		(pin "VIN-" input
-			(at 72.39 87.63 0)
+			(at 43.18 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84,7 +84,45 @@
 		)
 	)
 	(sheet
-		(at 106.68 125.73)
+		(at 142.875 34.29)
+		(size 23.495 51.435)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a200091-b439-443c-a136-2aec626b67e4")
+		(property "Sheetname" "Pico"
+			(at 142.875 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pico.kicad_sch"
+			(at 142.875 86.3096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Control Board V1"
+				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.835 46.99)
 		(size 40.64 29.21)
 		(fields_autoplaced yes)
 		(stroke
@@ -96,7 +134,7 @@
 		)
 		(uuid "a6c70f8b-d576-48c3-bfc7-6e0bdb401246")
 		(property "Sheetname" "LMG5200"
-			(at 106.68 125.0184 0)
+			(at 76.835 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105,7 +143,7 @@
 			)
 		)
 		(property "Sheetfile" "LMG5200.kicad_sch"
-			(at 106.68 155.5246 0)
+			(at 76.835 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -114,7 +152,7 @@
 			)
 		)
 		(pin "sig-gnd" input
-			(at 147.32 146.05 0)
+			(at 117.475 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -124,7 +162,7 @@
 			(uuid "f51c62f5-8284-48bd-9d97-e66b62cc87f6")
 		)
 		(pin "5V" input
-			(at 135.89 125.73 90)
+			(at 106.045 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -134,7 +172,7 @@
 			(uuid "78be17ea-1d43-4533-b01d-fdcf99b41951")
 		)
 		(pin "bottom_out" input
-			(at 128.27 154.94 270)
+			(at 98.425 76.2 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,7 +182,7 @@
 			(uuid "e75400d7-b1ce-457e-8772-a52fd46ff19e")
 		)
 		(pin "to_xt30_capBank" input
-			(at 106.68 137.16 180)
+			(at 76.835 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154,7 +192,7 @@
 			(uuid "a216345b-ff76-466d-a579-a4df1f05570d")
 		)
 		(pin "ADC3" input
-			(at 113.03 125.73 90)
+			(at 83.185 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164,7 +202,7 @@
 			(uuid "e6739177-0fac-4518-b214-7615b9f394c7")
 		)
 		(pin "ADC2" input
-			(at 116.84 125.73 90)
+			(at 86.995 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +212,7 @@
 			(uuid "20c8075d-554a-4607-8548-a0d2190dbeca")
 		)
 		(pin "PWM_top" input
-			(at 147.32 134.62 0)
+			(at 117.475 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -184,7 +222,7 @@
 			(uuid "d5a86c69-8531-4899-8bc1-be3d606c9401")
 		)
 		(pin "PWM_bottom" input
-			(at 147.32 137.16 0)
+			(at 117.475 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -194,7 +232,7 @@
 			(uuid "98499a58-59ca-44f1-ae29-da4047b62963")
 		)
 		(pin "ADC1" input
-			(at 120.65 125.73 90)
+			(at 90.805 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -212,8 +250,8 @@
 		)
 	)
 	(sheet
-		(at 177.8 68.58)
-		(size 35.56 21.59)
+		(at 186.69 31.75)
+		(size 35.56 55.245)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -224,7 +262,7 @@
 		)
 		(uuid "ba5c2d63-7c4b-497a-9de4-bddeb8ed5de8")
 		(property "Sheetname" "IO"
-			(at 177.8 67.8684 0)
+			(at 186.69 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -233,7 +271,7 @@
 			)
 		)
 		(property "Sheetfile" "io.kicad_sch"
-			(at 177.8 90.7546 0)
+			(at 186.69 87.5796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -250,7 +288,7 @@
 		)
 	)
 	(sheet
-		(at 59.69 99.06)
+		(at 30.48 54.61)
 		(size 12.7 13.97)
 		(fields_autoplaced yes)
 		(stroke
@@ -262,7 +300,7 @@
 		)
 		(uuid "baf458a5-80d6-4ce7-aba0-1e3ff07021ab")
 		(property "Sheetname" "current_sensor2"
-			(at 59.69 98.3484 0)
+			(at 30.48 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,7 +309,7 @@
 			)
 		)
 		(property "Sheetfile" "current_sensor2.kicad_sch"
-			(at 59.69 113.6146 0)
+			(at 30.48 69.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280,7 +318,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 59.69 102.87 180)
+			(at 30.48 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -290,7 +328,7 @@
 			(uuid "5ec27a1e-2a44-46d6-8c90-db08f4ede845")
 		)
 		(pin "VIN+" input
-			(at 72.39 102.87 0)
+			(at 43.18 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,7 +338,7 @@
 			(uuid "3a285d69-ae9d-48fb-903b-aafc06eb8f05")
 		)
 		(pin "VIN-" input
-			(at 72.39 109.22 0)
+			(at 43.18 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,7 +348,7 @@
 			(uuid "9aa700c6-6efb-439a-a035-43527310ffdd")
 		)
 		(pin "GND" input
-			(at 59.69 109.22 180)
+			(at 30.48 64.77 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,7 +366,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 54.61)
+		(at 28.575 101.6)
 		(size 31.75 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -340,7 +378,7 @@
 		)
 		(uuid "e33a9390-58bb-4e98-90e4-3dcddb5af9e9")
 		(property "Sheetname" "5V_PSU"
-			(at 109.22 53.8984 0)
+			(at 28.575 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -349,7 +387,7 @@
 			)
 		)
 		(property "Sheetfile" "5V_PSU.kicad_sch"
-			(at 109.22 75.5146 0)
+			(at 28.575 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -358,17 +396,17 @@
 			)
 		)
 		(pin "IOUT" input
-			(at 109.22 57.912 180)
+			(at 60.325 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "6543f307-35fc-4c99-b718-152208e5bbee")
 		)
 		(pin "GND" input
-			(at 109.22 60.96 180)
+			(at 28.575 117.475 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -378,7 +416,7 @@
 			(uuid "84a4fcb0-83bb-4f29-afac-b00f4019670b")
 		)
 		(pin "VIN" input
-			(at 109.22 64.516 180)
+			(at 28.575 106.045 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -396,7 +434,7 @@
 		)
 	)
 	(sheet
-		(at 59.69 120.65)
+		(at 30.48 76.2)
 		(size 12.7 13.97)
 		(fields_autoplaced yes)
 		(stroke
@@ -408,7 +446,7 @@
 		)
 		(uuid "f9ccd444-bb08-4521-9886-c035e86d8847")
 		(property "Sheetname" "current_sensor3"
-			(at 59.69 119.9384 0)
+			(at 30.48 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,7 +455,7 @@
 			)
 		)
 		(property "Sheetfile" "current_sensor3.kicad_sch"
-			(at 59.69 135.2046 0)
+			(at 30.48 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -426,7 +464,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 59.69 130.81 180)
+			(at 30.48 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -436,7 +474,7 @@
 			(uuid "48a67556-9761-47d5-8e2c-13432bf609e2")
 		)
 		(pin "3V3" input
-			(at 59.69 124.46 180)
+			(at 30.48 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -446,7 +484,7 @@
 			(uuid "67cc26ed-c123-42a2-a211-3cb0b9769373")
 		)
 		(pin "VIN-" input
-			(at 72.39 130.81 0)
+			(at 43.18 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -456,7 +494,7 @@
 			(uuid "b21a7452-b23a-4596-a6f9-88e7b2d1f529")
 		)
 		(pin "VIN+" input
-			(at 72.39 124.46 0)
+			(at 43.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)

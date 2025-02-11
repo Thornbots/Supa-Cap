@@ -1211,7 +1211,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 228.346 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1223,7 +1222,6 @@
 	(hierarchical_label "IOUT"
 		(shape input)
 		(at 228.346 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1235,7 +1233,6 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 77.47 99.822 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1247,7 +1244,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 77.47 102.362 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

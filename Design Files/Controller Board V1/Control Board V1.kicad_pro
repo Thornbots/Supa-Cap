@@ -728,6 +728,10 @@
     [
       "f9ccd444-bb08-4521-9886-c035e86d8847",
       "current_sensor3"
+    ],
+    [
+      "3a200091-b439-443c-a136-2aec626b67e4",
+      "Pico"
     ]
   ],
   "text_variables": {}
