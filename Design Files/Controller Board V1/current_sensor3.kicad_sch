@@ -747,7 +747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1374f455-289a-42b3-a81b-6c1719bdd63f")
-		(property "Reference" "R11"
+		(property "Reference" "R4"
 			(at 170.18 87.884 0)
 			(effects
 				(font
@@ -765,7 +765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 169.672 88.9 90)
 			(effects
 				(font
@@ -801,7 +801,7 @@
 		(instances
 			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/f9ccd444-bb08-4521-9886-c035e86d8847"
-					(reference "R11")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -816,7 +816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30693c6f-41f3-400e-8541-8c2e7f27cb1d")
-		(property "Reference" "R10"
+		(property "Reference" "R3"
 			(at 163.83 87.884 0)
 			(effects
 				(font
@@ -834,7 +834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.322 88.9 90)
 			(effects
 				(font
@@ -870,7 +870,7 @@
 		(instances
 			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/f9ccd444-bb08-4521-9886-c035e86d8847"
-					(reference "R10")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -885,7 +885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82851ef6-ac91-4603-9505-d1628d6df013")
-		(property "Reference" "R9"
+		(property "Reference" "R2"
 			(at 157.48 87.884 0)
 			(effects
 				(font
@@ -903,7 +903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 156.972 88.9 90)
 			(effects
 				(font
@@ -939,7 +939,7 @@
 		(instances
 			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/f9ccd444-bb08-4521-9886-c035e86d8847"
-					(reference "R9")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -955,7 +955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8335be80-490d-42e6-acd6-5daf243130e7")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 139.7 76.2 90)
 			(effects
 				(font
@@ -971,7 +971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 139.7 84.328 90)
 			(effects
 				(font
@@ -1007,7 +1007,7 @@
 		(instances
 			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/f9ccd444-bb08-4521-9886-c035e86d8847"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
