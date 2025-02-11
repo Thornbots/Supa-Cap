@@ -1,7 +1,0 @@
-Various Links for Super cap
-https://www.digikey.com/en/articles/design-trade-offs-when-selecting-a-high-frequency-switching-regulator
-https://github.com/RoboMaster-Club/Electrical-System
-https://www.mouser.com/new/ald/ald-ald8100-arrays/
-https://www.mouser.com/new/ald/ald-ald9100-dual-sab-mosfet-arrays/
-https://www.aldinc.com/ald_precision-supercap-auto-balancing-sab-mosfet-tech.php
-https://www.programmersought.com/article/92832777480/
