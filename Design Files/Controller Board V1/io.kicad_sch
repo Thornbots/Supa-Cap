@@ -1030,6 +1030,7 @@
 	(hierarchical_label "GND_OUT"
 		(shape input)
 		(at 64.77 21.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1041,6 +1042,7 @@
 	(hierarchical_label "24_OUT"
 		(shape input)
 		(at 64.77 17.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1052,6 +1054,7 @@
 	(hierarchical_label "SIG_GND"
 		(shape input)
 		(at 64.77 25.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1063,6 +1066,7 @@
 	(hierarchical_label "GND_OUT"
 		(shape input)
 		(at 64.77 27.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1074,6 +1078,7 @@
 	(hierarchical_label "SIG_GND"
 		(shape input)
 		(at 52.07 39.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1085,6 +1090,7 @@
 	(hierarchical_label "GND_IN_PMM"
 		(shape input)
 		(at 52.07 21.59 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1096,6 +1102,7 @@
 	(hierarchical_label "CAP_IN"
 		(shape input)
 		(at 52.07 26.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1107,6 +1114,7 @@
 	(hierarchical_label "CAP_GND"
 		(shape input)
 		(at 52.07 30.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1118,6 +1126,7 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 52.07 35.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1129,6 +1138,7 @@
 	(hierarchical_label "24_IN_PMM"
 		(shape input)
 		(at 52.07 17.78 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

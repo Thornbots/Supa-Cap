@@ -415,6 +415,12 @@
 		(uuid "7517f35b-3fd0-4ef6-a2e3-a35c78a6913e")
 	)
 	(junction
+		(at 120.65 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "835692a6-19ba-4504-829c-6586a212d355")
+	)
+	(junction
 		(at 114.3 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -425,6 +431,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8af2168-afd5-4180-8b1a-be92c2c55a11")
+	)
+	(junction
+		(at 114.3 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb2c46f3-1c34-4ad9-be10-98f246dbd601")
+	)
+	(wire
+		(pts
+			(xy 120.65 80.01) (xy 132.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "093ce662-ad53-4b8a-adf1-7439243a03a2")
 	)
 	(wire
 		(pts
@@ -525,6 +547,16 @@
 			(type default)
 		)
 		(uuid "5a454e88-fe35-456c-ba38-b6e8c6ca8c16")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.93) (xy 132.08 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b97981-6adb-455e-ab46-310f3a4d4105")
 	)
 	(wire
 		(pts
@@ -649,6 +681,7 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 76.2 95.25 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -660,6 +693,7 @@
 	(hierarchical_label "VIN+"
 		(shape input)
 		(at 90.17 55.88 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -671,6 +705,7 @@
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 114.3 59.69 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -679,9 +714,22 @@
 		)
 		(uuid "94253beb-e9ac-4b68-9c00-1baad9da175f")
 	)
+	(hierarchical_label "SCL"
+		(shape output)
+		(at 132.08 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b4fa7ac-e00d-40d0-83b9-42fc21141e8c")
+	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 76.2 69.85 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -693,6 +741,7 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 114.3 95.25 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -704,6 +753,7 @@
 	(hierarchical_label "VIN-"
 		(shape input)
 		(at 100.33 55.88 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -711,6 +761,18 @@
 			(justify left)
 		)
 		(uuid "de6f2825-55c8-40c6-9fd7-f8f6224a956d")
+	)
+	(hierarchical_label "SDA"
+		(shape output)
+		(at 132.08 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6a08784-7751-4067-8424-cb853a68a26c")
 	)
 	(symbol
 		(lib_id "Device:R")

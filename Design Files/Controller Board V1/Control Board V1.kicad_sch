@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(sheet
 		(at 30.48 33.02)
-		(size 12.7 13.97)
+		(size 12.7 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "current_sensor1.kicad_sch"
-			(at 30.48 47.5746 0)
+			(at 30.48 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 30.48 36.83 180)
+			(at 30.48 39.37 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55,18 +55,18 @@
 			)
 			(uuid "9d8a8090-3194-4cb7-a715-e45d9f95f8a3")
 		)
-		(pin "VIN+" input
-			(at 43.18 36.83 0)
+		(pin "VIN+" bidirectional
+			(at 30.48 35.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "e1f645fd-4c31-4152-a0c4-09bc9e7cbfb4")
 		)
-		(pin "VIN-" input
-			(at 43.18 43.18 0)
+		(pin "VIN-" bidirectional
+			(at 43.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,6 +74,26 @@
 				(justify right)
 			)
 			(uuid "cd3f58f9-b2ec-4518-bca7-3792c02b6e9e")
+		)
+		(pin "SCL" output
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "18a9bbf1-d1ee-47e9-9fe2-0be971307433")
+		)
+		(pin "SDA" output
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1ff5aff3-1439-4ee0-8f55-1ed818d5d55d")
 		)
 		(instances
 			(project "Control Board V1"
@@ -112,6 +132,46 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "3.3V" output
+			(at 166.37 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ddd95149-11f9-4abf-9fd9-128a65919a06")
+		)
+		(pin "5V" input
+			(at 142.875 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b92cc3f-d113-48a4-8488-1077b3ce48bb")
+		)
+		(pin "SCL" input
+			(at 166.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "33e43a9e-5baf-4fbc-a95d-9268e33e64e7")
+		)
+		(pin "SDA" input
+			(at 166.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a810a3f4-55d1-48f1-8b38-1ec8a3dc9c39")
 		)
 		(instances
 			(project "Control Board V1"
@@ -289,7 +349,7 @@
 	)
 	(sheet
 		(at 30.48 54.61)
-		(size 12.7 13.97)
+		(size 12.7 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -309,7 +369,7 @@
 			)
 		)
 		(property "Sheetfile" "current_sensor2.kicad_sch"
-			(at 30.48 69.1646 0)
+			(at 30.48 67.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -318,7 +378,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 30.48 58.42 180)
+			(at 30.48 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -327,18 +387,18 @@
 			)
 			(uuid "5ec27a1e-2a44-46d6-8c90-db08f4ede845")
 		)
-		(pin "VIN+" input
-			(at 43.18 58.42 0)
+		(pin "VIN+" bidirectional
+			(at 30.48 57.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "3a285d69-ae9d-48fb-903b-aafc06eb8f05")
 		)
-		(pin "VIN-" input
-			(at 43.18 64.77 0)
+		(pin "VIN-" bidirectional
+			(at 43.18 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -356,6 +416,26 @@
 				(justify left)
 			)
 			(uuid "5956eaae-a0f8-4d20-88cf-9dfc87953e93")
+		)
+		(pin "SCL" output
+			(at 43.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "798dd109-808b-4eed-949d-79ba8de6250c")
+		)
+		(pin "SDA" output
+			(at 43.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "10862b20-a340-424e-9b56-2624a7320fc1")
 		)
 		(instances
 			(project "Control Board V1"
@@ -395,7 +475,7 @@
 				(justify left top)
 			)
 		)
-		(pin "IOUT" input
+		(pin "IOUT(5V)" input
 			(at 60.325 106.045 0)
 			(effects
 				(font
@@ -435,7 +515,7 @@
 	)
 	(sheet
 		(at 30.48 76.2)
-		(size 12.7 13.97)
+		(size 12.7 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -455,7 +535,7 @@
 			)
 		)
 		(property "Sheetfile" "current_sensor3.kicad_sch"
-			(at 30.48 90.7546 0)
+			(at 30.48 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -474,7 +554,7 @@
 			(uuid "48a67556-9761-47d5-8e2c-13432bf609e2")
 		)
 		(pin "3V3" input
-			(at 30.48 80.01 180)
+			(at 30.48 82.55 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -483,8 +563,8 @@
 			)
 			(uuid "67cc26ed-c123-42a2-a211-3cb0b9769373")
 		)
-		(pin "VIN-" input
-			(at 43.18 86.36 0)
+		(pin "VIN-" bidirectional
+			(at 43.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -493,15 +573,35 @@
 			)
 			(uuid "b21a7452-b23a-4596-a6f9-88e7b2d1f529")
 		)
-		(pin "VIN+" input
-			(at 43.18 80.01 0)
+		(pin "VIN+" bidirectional
+			(at 30.48 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "53320171-8b37-4411-854c-bcb461d66a62")
+		)
+		(pin "SCL" output
+			(at 43.18 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "53320171-8b37-4411-854c-bcb461d66a62")
+			(uuid "69c313eb-b462-4bf3-bfb8-f035b6945712")
+		)
+		(pin "SDA" output
+			(at 43.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e9210d49-4a9e-4a79-8930-67dbf4dd3922")
 		)
 		(instances
 			(project "Control Board V1"
