@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 30.48 33.02)
+		(at 29.21 22.86)
 		(size 12.7 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -18,7 +18,7 @@
 		)
 		(uuid "39d380bc-529d-4f9d-86d0-4a47ae8ed980")
 		(property "Sheetname" "current_sensor1"
-			(at 30.48 32.3084 0)
+			(at 29.21 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "current_sensor1.kicad_sch"
-			(at 30.48 46.3046 0)
+			(at 29.21 36.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 30.48 39.37 180)
+			(at 29.21 29.21 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,7 +46,7 @@
 			(uuid "2f5e0ce6-c033-4cfe-b400-c2cf209fc9f0")
 		)
 		(pin "GND" input
-			(at 30.48 43.18 180)
+			(at 29.21 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +56,7 @@
 			(uuid "9d8a8090-3194-4cb7-a715-e45d9f95f8a3")
 		)
 		(pin "VIN+" bidirectional
-			(at 30.48 35.56 180)
+			(at 29.21 25.4 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			(uuid "e1f645fd-4c31-4152-a0c4-09bc9e7cbfb4")
 		)
 		(pin "VIN-" bidirectional
-			(at 43.18 35.56 0)
+			(at 41.91 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +76,7 @@
 			(uuid "cd3f58f9-b2ec-4518-bca7-3792c02b6e9e")
 		)
 		(pin "SCL" output
-			(at 43.18 39.37 0)
+			(at 41.91 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +86,7 @@
 			(uuid "18a9bbf1-d1ee-47e9-9fe2-0be971307433")
 		)
 		(pin "SDA" output
-			(at 43.18 43.18 0)
+			(at 41.91 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153,7 +153,227 @@
 			)
 			(uuid "5b92cc3f-d113-48a4-8488-1077b3ce48bb")
 		)
-		(pin "SCL" input
+		(pin "SPI_ADC_1" output
+			(at 166.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a44dd757-2a17-4b70-87e4-d8225be90d07")
+		)
+		(pin "SPI_ADC_2" output
+			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3443490c-214c-448f-a0b0-806e524fa163")
+		)
+		(pin "PWM_bottom" output
+			(at 142.875 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "79b4db37-ce7d-4bc6-b6a8-1c1f8650d316")
+		)
+		(pin "LED0" output
+			(at 142.875 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "efac4bd8-1927-4864-a5c5-10408aacaec5")
+		)
+		(pin "I2C_Current_SCL" input
+			(at 166.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bb42b5f4-7045-4abb-a9ac-af6e69354436")
+		)
+		(pin "I2C_Current_SDA" input
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a364a9f-9013-4390-92a2-30ab56c3a5e8")
+		)
+		(pin "PWM_top" output
+			(at 142.875 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "596df8d0-c922-40f6-a1b5-0ec4be50c7ba")
+		)
+		(pin "LED1" output
+			(at 142.875 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d5d1a4f-5efd-43db-aec8-7ae848f736d7")
+		)
+		(pin "GPIO_0" bidirectional
+			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ea2e39ee-8901-4226-962c-b47777c86e6f")
+		)
+		(pin "SPI_ADC_0" output
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "958a01df-f918-40a7-97e5-41e80bda9582")
+		)
+		(pin "sig_gnd" input
+			(at 166.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2008f8be-6eb9-418d-a7f8-055d3a59e4af")
+		)
+		(pin "inv" input
+			(at 166.37 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8719ae85-754b-46ea-89bc-ce98cf6a813c")
+		)
+		(pin "LED7" output
+			(at 142.875 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bbd9747a-ee3a-4612-a35b-993027c400e0")
+		)
+		(pin "I2C_TypeC_SDA" input
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd82b991-6a60-4517-98e8-64fa0ed12243")
+		)
+		(pin "I2C_TypeC_SCL" input
+			(at 166.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "556f0be6-4328-46b4-8cce-204edcbadc0e")
+		)
+		(pin "buffer" input
+			(at 142.875 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3dab4d7f-bf19-4a41-ad11-6532d6a3365d")
+		)
+		(pin "GPIO_2" bidirectional
+			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83207c56-fdc3-4f82-9937-fdb15aa961c0")
+		)
+		(pin "LED3" output
+			(at 142.875 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b1aac35-7512-4e7e-9987-1776383051fd")
+		)
+		(pin "GPIO_3" bidirectional
+			(at 166.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b9b5f275-9640-46b3-a317-c8049afb0627")
+		)
+		(pin "GPIO_1" bidirectional
+			(at 166.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7ab25f9c-9e55-4f85-bf8d-63d34fe33fa0")
+		)
+		(pin "LED2" output
+			(at 142.875 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0497c9f7-f245-44ef-8993-5a7372119a9e")
+		)
+		(pin "GPIO_4" bidirectional
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6d0ffc7e-d193-4233-bf3e-0cecc2552b72")
+		)
+		(pin "GPIO_5" bidirectional
 			(at 166.37 66.04 0)
 			(effects
 				(font
@@ -161,17 +381,37 @@
 				)
 				(justify right)
 			)
-			(uuid "33e43a9e-5baf-4fbc-a95d-9268e33e64e7")
+			(uuid "81b7da30-440d-4baf-b01e-d6b1537e36b8")
 		)
-		(pin "SDA" input
-			(at 166.37 68.58 0)
+		(pin "LED5" output
+			(at 142.875 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "a810a3f4-55d1-48f1-8b38-1ec8a3dc9c39")
+			(uuid "24f695a0-2e95-45d6-a935-de0585281e22")
+		)
+		(pin "LED4" output
+			(at 142.875 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e7137f8d-490e-4aa8-bc5d-d0bc6c7cbf9a")
+		)
+		(pin "LED6" output
+			(at 142.875 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "26eaed30-971f-4cd0-aeb5-19dc21e560d5")
 		)
 		(instances
 			(project "Control Board V1"
@@ -182,7 +422,7 @@
 		)
 	)
 	(sheet
-		(at 76.835 46.99)
+		(at 78.105 41.91)
 		(size 40.64 29.21)
 		(fields_autoplaced yes)
 		(stroke
@@ -194,7 +434,7 @@
 		)
 		(uuid "a6c70f8b-d576-48c3-bfc7-6e0bdb401246")
 		(property "Sheetname" "LMG5200"
-			(at 76.835 46.2784 0)
+			(at 78.105 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,7 +443,7 @@
 			)
 		)
 		(property "Sheetfile" "LMG5200.kicad_sch"
-			(at 76.835 76.7846 0)
+			(at 78.105 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -212,7 +452,7 @@
 			)
 		)
 		(pin "sig-gnd" input
-			(at 117.475 67.31 0)
+			(at 118.745 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -222,7 +462,7 @@
 			(uuid "f51c62f5-8284-48bd-9d97-e66b62cc87f6")
 		)
 		(pin "5V" input
-			(at 106.045 46.99 90)
+			(at 107.315 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -232,7 +472,7 @@
 			(uuid "78be17ea-1d43-4533-b01d-fdcf99b41951")
 		)
 		(pin "bottom_out" input
-			(at 98.425 76.2 270)
+			(at 99.695 71.12 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,7 +482,7 @@
 			(uuid "e75400d7-b1ce-457e-8772-a52fd46ff19e")
 		)
 		(pin "to_xt30_capBank" input
-			(at 76.835 58.42 180)
+			(at 78.105 53.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -251,28 +491,8 @@
 			)
 			(uuid "a216345b-ff76-466d-a579-a4df1f05570d")
 		)
-		(pin "ADC3" input
-			(at 83.185 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e6739177-0fac-4518-b214-7615b9f394c7")
-		)
-		(pin "ADC2" input
-			(at 86.995 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "20c8075d-554a-4607-8548-a0d2190dbeca")
-		)
 		(pin "PWM_top" input
-			(at 117.475 55.88 0)
+			(at 118.745 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,7 +502,7 @@
 			(uuid "d5a86c69-8531-4899-8bc1-be3d606c9401")
 		)
 		(pin "PWM_bottom" input
-			(at 117.475 58.42 0)
+			(at 118.745 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -291,15 +511,25 @@
 			)
 			(uuid "98499a58-59ca-44f1-ae29-da4047b62963")
 		)
-		(pin "ADC1" input
-			(at 90.805 46.99 90)
+		(pin "ADC_Neg" input
+			(at 93.98 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0926a9b9-c7b8-438c-a6e2-858c879957a6")
+			(uuid "7db4df28-b991-4959-a7dc-0501add7b677")
+		)
+		(pin "ADC_Pos" input
+			(at 91.44 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7507b3c3-13e1-43c4-b27e-b85e8ea2e8c4")
 		)
 		(instances
 			(project "Control Board V1"
@@ -339,6 +569,86 @@
 				(justify left top)
 			)
 		)
+		(pin "GND_OUT" input
+			(at 186.69 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6e71d75b-a6b8-430b-8a45-b212114693aa")
+		)
+		(pin "24_OUT" input
+			(at 186.69 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "67a46b07-9b9a-4125-b369-a4d60990c6b4")
+		)
+		(pin "SIG_GND" input
+			(at 186.69 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "18ad0341-d57b-4ce1-a944-d83a223529ad")
+		)
+		(pin "GND_IN_PMM" input
+			(at 186.69 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4ec1aed-fc1b-4887-a22c-3d00600810cb")
+		)
+		(pin "CAP_IN" input
+			(at 186.69 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "65a31d13-b030-4173-b3c5-2bbc8d2bdd5b")
+		)
+		(pin "CAP_GND" input
+			(at 186.69 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6f46b687-bd1c-48f6-90bf-6389c68b5e93")
+		)
+		(pin "5V" input
+			(at 186.69 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f44f70c8-5246-4c89-b310-da4fc52bfb49")
+		)
+		(pin "24_IN_PMM" input
+			(at 186.69 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "59cef112-c3f5-4a9e-83dd-52ba6cb800f8")
+		)
 		(instances
 			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74"
@@ -348,7 +658,7 @@
 		)
 	)
 	(sheet
-		(at 30.48 54.61)
+		(at 29.21 44.45)
 		(size 12.7 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -360,7 +670,7 @@
 		)
 		(uuid "baf458a5-80d6-4ce7-aba0-1e3ff07021ab")
 		(property "Sheetname" "current_sensor2"
-			(at 30.48 53.8984 0)
+			(at 29.21 43.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -369,7 +679,7 @@
 			)
 		)
 		(property "Sheetfile" "current_sensor2.kicad_sch"
-			(at 30.48 67.8946 0)
+			(at 29.21 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -378,7 +688,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 30.48 60.96 180)
+			(at 29.21 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -388,7 +698,7 @@
 			(uuid "5ec27a1e-2a44-46d6-8c90-db08f4ede845")
 		)
 		(pin "VIN+" bidirectional
-			(at 30.48 57.15 180)
+			(at 29.21 46.99 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -398,7 +708,7 @@
 			(uuid "3a285d69-ae9d-48fb-903b-aafc06eb8f05")
 		)
 		(pin "VIN-" bidirectional
-			(at 43.18 57.15 0)
+			(at 41.91 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -408,7 +718,7 @@
 			(uuid "9aa700c6-6efb-439a-a035-43527310ffdd")
 		)
 		(pin "GND" input
-			(at 30.48 64.77 180)
+			(at 29.21 54.61 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -418,7 +728,7 @@
 			(uuid "5956eaae-a0f8-4d20-88cf-9dfc87953e93")
 		)
 		(pin "SCL" output
-			(at 43.18 60.96 0)
+			(at 41.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -428,7 +738,7 @@
 			(uuid "798dd109-808b-4eed-949d-79ba8de6250c")
 		)
 		(pin "SDA" output
-			(at 43.18 64.77 0)
+			(at 41.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -514,7 +824,7 @@
 		)
 	)
 	(sheet
-		(at 30.48 76.2)
+		(at 29.21 66.04)
 		(size 12.7 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -526,7 +836,7 @@
 		)
 		(uuid "f9ccd444-bb08-4521-9886-c035e86d8847")
 		(property "Sheetname" "current_sensor3"
-			(at 30.48 75.4884 0)
+			(at 29.21 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -535,7 +845,7 @@
 			)
 		)
 		(property "Sheetfile" "current_sensor3.kicad_sch"
-			(at 30.48 89.4846 0)
+			(at 29.21 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -544,7 +854,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 30.48 86.36 180)
+			(at 29.21 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -554,7 +864,7 @@
 			(uuid "48a67556-9761-47d5-8e2c-13432bf609e2")
 		)
 		(pin "3V3" input
-			(at 30.48 82.55 180)
+			(at 29.21 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,7 +874,7 @@
 			(uuid "67cc26ed-c123-42a2-a211-3cb0b9769373")
 		)
 		(pin "VIN-" bidirectional
-			(at 43.18 78.74 0)
+			(at 41.91 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -574,7 +884,7 @@
 			(uuid "b21a7452-b23a-4596-a6f9-88e7b2d1f529")
 		)
 		(pin "VIN+" bidirectional
-			(at 30.48 78.74 180)
+			(at 29.21 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -584,7 +894,7 @@
 			(uuid "53320171-8b37-4411-854c-bcb461d66a62")
 		)
 		(pin "SCL" output
-			(at 43.18 82.55 0)
+			(at 41.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -594,7 +904,7 @@
 			(uuid "69c313eb-b462-4bf3-bfb8-f035b6945712")
 		)
 		(pin "SDA" output
-			(at 43.18 86.36 0)
+			(at 41.91 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

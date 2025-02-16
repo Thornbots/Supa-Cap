@@ -1062,7 +1062,7 @@
 	)
 	(hierarchical_label "GND_OUT"
 		(shape input)
-		(at 64.77 27.94 0)
+		(at 64.77 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)

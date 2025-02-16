@@ -298,127 +298,6 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Power_Management:LMG5200"
 			(pin_names
 				(offset 0.254)
@@ -1028,28 +907,10 @@
 		)
 	)
 	(junction
-		(at 139.7 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ff7804e-7236-4a08-b680-3067192ffc2e")
-	)
-	(junction
-		(at 139.7 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "389df798-51aa-401f-8b46-58532bffc039")
-	)
-	(junction
 		(at 139.7 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "395c3570-6a5f-4b59-ac37-58a31fb05ad0")
-	)
-	(junction
-		(at 139.7 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8a10f1c-4230-437b-8c62-97c772c98176")
 	)
 	(wire
 		(pts
@@ -1073,7 +934,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 83.82) (xy 139.7 81.28)
+			(xy 143.51 83.82) (xy 143.51 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1090,16 +951,6 @@
 			(type default)
 		)
 		(uuid "3bc85bc4-7996-4fe4-ac4e-d2d7788601dc")
-	)
-	(wire
-		(pts
-			(xy 139.7 52.07) (xy 139.7 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bb887db-1b5b-47ca-b677-85c08289a3eb")
 	)
 	(wire
 		(pts
@@ -1120,16 +971,6 @@
 			(type default)
 		)
 		(uuid "7fa6af0b-d807-411b-ac7a-af5089bccbfb")
-	)
-	(wire
-		(pts
-			(xy 139.7 81.28) (xy 139.7 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91607759-6113-4d64-989e-04fc69c13aea")
 	)
 	(wire
 		(pts
@@ -1163,7 +1004,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 81.28) (xy 153.67 81.28)
+			(xy 143.51 81.28) (xy 153.67 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1181,7 +1022,7 @@
 		)
 		(uuid "cb748c35-0f5a-4c41-ad3d-58fce465571f")
 	)
-	(hierarchical_label "ADC3"
+	(hierarchical_label "ADC_Neg"
 		(shape input)
 		(at 153.67 81.28 0)
 		(effects
@@ -1203,17 +1044,6 @@
 		)
 		(uuid "34bdc4f7-9830-45ef-8053-f27bdb9b4608")
 	)
-	(hierarchical_label "ADC1"
-		(shape input)
-		(at 139.7 52.07 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "508b1316-d7a1-4272-999b-25ec5b8e2889")
-	)
 	(hierarchical_label "bottom_out"
 		(shape input)
 		(at 124.46 133.35 180)
@@ -1225,7 +1055,7 @@
 		)
 		(uuid "53568dc5-809b-4849-802d-696160380344")
 	)
-	(hierarchical_label "ADC2"
+	(hierarchical_label "ADC_Pos"
 		(shape input)
 		(at 153.67 71.12 0)
 		(effects
@@ -1416,7 +1246,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 139.7 87.63 0)
+		(at 143.51 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1425,7 +1255,7 @@
 		(fields_autoplaced yes)
 		(uuid "823813fd-2bd1-4c0f-aedc-12c6638cef51")
 		(property "Reference" "L2"
-			(at 140.97 86.3599 0)
+			(at 144.78 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +1264,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 140.97 88.8999 0)
+			(at 144.78 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,7 +1273,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 87.63 0)
+			(at 143.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,7 +1282,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 87.63 0)
+			(at 143.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1291,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 139.7 87.63 0)
+			(at 143.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,76 +1402,6 @@
 			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/a6c70f8b-d576-48c3-bfc7-6e0bdb401246"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 139.7 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be8cee54-b8df-4f72-9001-b31d2defba25")
-		(property "Reference" "R1"
-			(at 142.24 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 142.24 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.922 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 139.7 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "783fe22d-52c1-431b-9bb3-5151b864376e")
-		)
-		(pin "2"
-			(uuid "5e78366f-6538-4ffb-bd95-6a7f73c33379")
-		)
-		(instances
-			(project "Control Board V1"
-				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/a6c70f8b-d576-48c3-bfc7-6e0bdb401246"
-					(reference "R1")
 					(unit 1)
 				)
 			)
