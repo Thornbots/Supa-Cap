@@ -849,7 +849,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 120.65 110.49 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -861,7 +860,6 @@
 	(hierarchical_label "VIN+"
 		(shape input)
 		(at 134.62 71.12 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -873,7 +871,6 @@
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 158.75 74.93 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -885,7 +882,6 @@
 	(hierarchical_label "SCL"
 		(shape output)
 		(at 176.53 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -897,7 +893,6 @@
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 120.65 85.09 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -909,7 +904,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 158.75 110.49 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -921,7 +915,6 @@
 	(hierarchical_label "VIN-"
 		(shape input)
 		(at 144.78 71.12 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -933,7 +926,6 @@
 	(hierarchical_label "SDA"
 		(shape output)
 		(at 176.53 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
