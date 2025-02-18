@@ -1262,7 +1262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 119.5832 106.426 0)
 			(effects
 				(font
@@ -1834,7 +1834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NRS8030T100MJGJ:IND_TAIYO_NRS8030_TAY"
+		(property "Footprint" "Library:IND_TAIYO_NRS8030_TAY"
 			(at 181.864 87.376 0)
 			(effects
 				(font
@@ -1947,7 +1947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LMR51420XDDCR:SOT95P280X110-6N"
+		(property "Footprint" "Library:SOT23_DDC_TEX"
 			(at 142.24 84.836 0)
 			(effects
 				(font

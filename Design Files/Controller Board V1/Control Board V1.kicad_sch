@@ -2401,6 +2401,36 @@
 			)
 			(uuid "26eaed30-971f-4cd0-aeb5-19dc21e560d5")
 		)
+		(pin "ADC_1" output
+			(at 177.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f3685f7-ceda-4a14-9f96-fb894a1a9334")
+		)
+		(pin "ADC_0" output
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5d6db7cb-4d36-466f-baf3-04de39819ec0")
+		)
+		(pin "ADC_2" output
+			(at 177.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "210e8656-51c2-42bc-b612-41ad30c90ba1")
+		)
 		(instances
 			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74"

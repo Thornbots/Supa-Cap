@@ -1938,7 +1938,7 @@
 			(uuid "9665146a-9546-442a-8384-3f1bfc4e338e")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/3a200091-b439-443c-a136-2aec626b67e4"
 					(reference "#PWR011")
 					(unit 1)
@@ -2206,7 +2206,7 @@
 			(uuid "fb462828-0d3b-4d08-9800-40c59cc4abf4")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/3a200091-b439-443c-a136-2aec626b67e4"
 					(reference "#PWR02")
 					(unit 1)
