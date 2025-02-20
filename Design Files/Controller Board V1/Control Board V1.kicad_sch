@@ -2742,7 +2742,7 @@
 			(uuid "57727784-88ac-4abb-a694-7164875d48f7")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74"
 					(reference "R1")
 					(unit 1)
@@ -4029,7 +4029,7 @@
 			(uuid "234159af-22e2-410b-ab7d-d354d4f92612")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74"
 					(reference "D2")
 					(unit 1)
