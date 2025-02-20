@@ -1224,7 +1224,6 @@
 	(hierarchical_label "cap_volt"
 		(shape input)
 		(at 158.75 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1236,7 +1235,6 @@
 	(hierarchical_label "D_GND"
 		(shape input)
 		(at 95.25 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1248,7 +1246,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 120.65 80.01 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1260,7 +1257,6 @@
 	(hierarchical_label "P_GND"
 		(shape input)
 		(at 118.11 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1272,7 +1268,6 @@
 	(hierarchical_label "PWM_bottom"
 		(shape input)
 		(at 110.49 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1284,7 +1279,6 @@
 	(hierarchical_label "PWM_top"
 		(shape input)
 		(at 88.9 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1296,7 +1290,6 @@
 	(hierarchical_label "high_side_FET"
 		(shape input)
 		(at 125.73 85.09 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

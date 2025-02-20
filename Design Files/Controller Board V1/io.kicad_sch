@@ -1272,7 +1272,7 @@
 		(uuid "b3bb6fc3-add4-4479-87d4-8924fbe779a4")
 	)
 	(junction
-		(at 104.14 111.76)
+		(at 102.87 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c618f298-6254-4d56-8151-bb42d0254a84")
@@ -1349,7 +1349,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 128.27) (xy 85.09 128.27)
+			(xy 72.39 135.89) (xy 85.09 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1529,7 +1529,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 107.95) (xy 104.14 111.76)
+			(xy 102.87 110.49) (xy 102.87 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1589,7 +1589,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 114.3) (xy 104.14 114.3)
+			(xy 104.14 120.65) (xy 102.87 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1709,7 +1709,7 @@
 	)
 	(text "Cap Bank Connector"
 		(exclude_from_sim no)
-		(at 94.742 135.128 0)
+		(at 94.742 142.748 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1719,7 +1719,7 @@
 	)
 	(text "PMM Connector"
 		(exclude_from_sim no)
-		(at 95.758 107.95 0)
+		(at 94.488 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1730,7 +1730,6 @@
 	(hierarchical_label "P_GND"
 		(shape input)
 		(at 62.23 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1742,7 +1741,6 @@
 	(hierarchical_label "GPIO_1"
 		(shape bidirectional)
 		(at 143.51 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1754,7 +1752,6 @@
 	(hierarchical_label "GPIO_0"
 		(shape bidirectional)
 		(at 143.51 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1766,7 +1763,6 @@
 	(hierarchical_label "24V_OUT"
 		(shape input)
 		(at 109.22 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1778,7 +1774,6 @@
 	(hierarchical_label "D_GND"
 		(shape input)
 		(at 62.23 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1790,7 +1785,6 @@
 	(hierarchical_label "I2C_TypeC_SDA"
 		(shape input)
 		(at 143.51 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1801,8 +1795,7 @@
 	)
 	(hierarchical_label "CAP_IN"
 		(shape input)
-		(at 85.09 130.81 180)
-		(fields_autoplaced yes)
+		(at 85.09 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1814,7 +1807,6 @@
 	(hierarchical_label "GPIO_2"
 		(shape bidirectional)
 		(at 143.51 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1826,7 +1818,6 @@
 	(hierarchical_label "GPIO_5"
 		(shape bidirectional)
 		(at 143.51 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1838,7 +1829,6 @@
 	(hierarchical_label "GPIO_3"
 		(shape bidirectional)
 		(at 143.51 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1850,7 +1840,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 130.81 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1861,20 +1850,18 @@
 	)
 	(hierarchical_label "24_IN_PMM"
 		(shape input)
-		(at 104.14 107.95 0)
-		(fields_autoplaced yes)
+		(at 102.87 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e3bef999-16bc-4b01-a980-4e2d672ac4e8")
 	)
 	(hierarchical_label "GPIO_4"
 		(shape bidirectional)
 		(at 143.51 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1886,7 +1873,6 @@
 	(hierarchical_label "I2C_TypeC_SCL"
 		(shape input)
 		(at 143.51 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2155,7 +2141,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 128.27 0)
+		(at 72.39 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2163,7 +2149,7 @@
 		(dnp no)
 		(uuid "0eaccbfa-a0a4-49e1-8a12-3481fc766ca6")
 		(property "Reference" "#PWR027"
-			(at 72.39 134.62 0)
+			(at 72.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2158,7 @@
 			)
 		)
 		(property "Value" "P_GND"
-			(at 72.39 133.096 0)
+			(at 72.39 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 128.27 0)
+			(at 72.39 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +2175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 128.27 0)
+			(at 72.39 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2184,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 128.27 0)
+			(at 72.39 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3519,7 @@
 	)
 	(symbol
 		(lib_id "XT30PW-M:XT30PW-M")
-		(at 99.06 111.76 0)
+		(at 97.79 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3541,7 +3527,7 @@
 		(dnp no)
 		(uuid "56492102-785f-4769-b185-3b06a2ae7223")
 		(property "Reference" "J7"
-			(at 85.852 111.252 0)
+			(at 84.582 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3535,7 @@
 			)
 		)
 		(property "Value" "XT30UPB-M"
-			(at 85.852 113.792 0)
+			(at 84.582 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +3543,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-M_1x02_P5.0mm_Vertical"
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,7 +3553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,7 +3562,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +3571,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +3581,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3591,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +3601,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3611,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3621,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +3631,7 @@
 			)
 		)
 		(property "PARTREV" "1.2"
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3641,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,7 +3651,7 @@
 			)
 		)
 		(property "MP" "XT30PW-M"
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +3661,7 @@
 			)
 		)
 		(property "Description_1" "\nSocket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow\n"
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,7 +3671,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Amass"
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3681,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3691,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "XT30PW-M"
-			(at 99.06 111.76 0)
+			(at 97.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +3980,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 114.3 0)
+		(at 104.14 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4002,7 +3988,7 @@
 		(dnp no)
 		(uuid "68913f1f-6d2d-407a-a3b6-cafe944c0c38")
 		(property "Reference" "#PWR026"
-			(at 105.41 120.65 0)
+			(at 104.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +3997,7 @@
 			)
 		)
 		(property "Value" "P_GND"
-			(at 105.41 119.38 0)
+			(at 104.14 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +4005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 114.3 0)
+			(at 104.14 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 114.3 0)
+			(at 104.14 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +4023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 114.3 0)
+			(at 104.14 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +4886,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 111.76 0)
+		(at 110.49 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4908,7 +4894,7 @@
 		(dnp no)
 		(uuid "d8f21652-811f-4f0e-8d8f-b767a32cc189")
 		(property "Reference" "#PWR057"
-			(at 111.76 118.11 0)
+			(at 110.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4917,7 +4903,7 @@
 			)
 		)
 		(property "Value" "P_GND"
-			(at 111.76 116.586 0)
+			(at 110.49 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +4911,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 111.76 0)
+			(at 110.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +4920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 111.76 0)
+			(at 110.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4943,7 +4929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 111.76 0)
+			(at 110.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,7 +5149,7 @@
 	)
 	(symbol
 		(lib_id "XT30PW-F:XT30PW-F")
-		(at 90.17 130.81 180)
+		(at 90.17 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5171,7 +5157,7 @@
 		(dnp no)
 		(uuid "eb8cda1d-4977-4bf4-a31b-224592af425e")
 		(property "Reference" "J1"
-			(at 101.346 128.27 0)
+			(at 101.346 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,7 +5166,7 @@
 			)
 		)
 		(property "Value" "XT30PW-F"
-			(at 98.552 130.81 0)
+			(at 98.552 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,7 +5175,7 @@
 			)
 		)
 		(property "Footprint" "PassiveBankV1:XT30PW-F"
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5199,7 +5185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,7 +5194,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5203,7 @@
 			)
 		)
 		(property "MF" "amass"
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5213,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +5223,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,7 +5233,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +5243,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=eda"
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5253,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5263,7 @@
 			)
 		)
 		(property "PARTREV" "1.2"
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +5273,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-F/AMASS/view-part/?ref=snap"
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5297,7 +5283,7 @@
 			)
 		)
 		(property "MP" "XT30PW-F"
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,7 +5293,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; yellow; 15A\n                        \n"
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +5303,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Amass"
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +5313,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5323,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "XT30PW-F"
-			(at 90.17 130.81 0)
+			(at 90.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +5485,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 107.95 111.76 270)
+		(at 106.68 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5508,7 +5494,7 @@
 		(fields_autoplaced yes)
 		(uuid "f90b88a2-5395-49aa-9820-ae72097dce93")
 		(property "Reference" "C11"
-			(at 107.95 104.14 90)
+			(at 106.68 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,7 +5502,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 107.95 106.68 90)
+			(at 106.68 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5510,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 112.7252 0)
+			(at 102.87 119.0752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5519,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 111.76 0)
+			(at 106.68 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +5528,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 107.95 111.76 0)
+			(at 106.68 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)

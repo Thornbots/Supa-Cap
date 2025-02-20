@@ -562,23 +562,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 100.33) (xy 111.125 100.33)
+			(xy 106.045 100.33) (xy 107.95 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "03df97c0-9e1a-4e44-82b5-17cb5a08aafc")
-	)
-	(wire
-		(pts
-			(xy 118.745 97.79) (xy 124.46 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07e74ed0-8054-4b29-a561-55e5d9890ac0")
 	)
 	(wire
 		(pts
@@ -599,16 +589,6 @@
 			(type default)
 		)
 		(uuid "0bbd4f51-451e-4c8e-a193-875b592f4b6c")
-	)
-	(wire
-		(pts
-			(xy 118.745 82.55) (xy 124.46 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bee0e3d-c1f6-48a5-9288-60119b819c0e")
 	)
 	(wire
 		(pts
@@ -762,7 +742,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 92.71) (xy 111.125 92.71)
+			(xy 106.045 92.71) (xy 116.84 92.71)
 		)
 		(stroke
 			(width 0)
@@ -872,7 +852,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 90.17) (xy 111.125 90.17)
+			(xy 106.045 90.17) (xy 107.95 90.17)
 		)
 		(stroke
 			(width 0)
@@ -892,7 +872,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.745 100.33) (xy 124.46 100.33)
+			(xy 115.57 100.33) (xy 124.46 100.33)
 		)
 		(stroke
 			(width 0)
@@ -942,7 +922,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.745 85.09) (xy 124.46 85.09)
+			(xy 115.57 85.09) (xy 124.46 85.09)
 		)
 		(stroke
 			(width 0)
@@ -952,17 +932,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.745 87.63) (xy 124.46 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ffbbb52-a26f-44d4-984a-991a2a078cec")
-	)
-	(wire
-		(pts
-			(xy 106.045 85.09) (xy 111.125 85.09)
+			(xy 106.045 85.09) (xy 107.95 85.09)
 		)
 		(stroke
 			(width 0)
@@ -972,7 +942,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.745 95.25) (xy 124.46 95.25)
+			(xy 115.57 95.25) (xy 124.46 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1002,7 +972,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 87.63) (xy 111.125 87.63)
+			(xy 106.045 87.63) (xy 116.84 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1039,16 +1009,6 @@
 			(type default)
 		)
 		(uuid "a4968af7-b73d-462a-aa0f-75294f6534ea")
-	)
-	(wire
-		(pts
-			(xy 118.745 92.71) (xy 124.46 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a69d0812-c64b-4886-96f9-68e272eb0754")
 	)
 	(wire
 		(pts
@@ -1122,7 +1082,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.125 82.55) (xy 106.045 82.55)
+			(xy 116.84 82.55) (xy 106.045 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1172,7 +1132,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 97.79) (xy 111.125 97.79)
+			(xy 106.045 97.79) (xy 116.84 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1192,7 +1152,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.745 90.17) (xy 124.46 90.17)
+			(xy 115.57 90.17) (xy 124.46 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1222,7 +1182,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 95.25) (xy 111.125 95.25)
+			(xy 106.045 95.25) (xy 107.95 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1263,7 +1223,6 @@
 	(hierarchical_label "PWM_top"
 		(shape output)
 		(at 135.89 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1275,7 +1234,6 @@
 	(hierarchical_label "CAP_IN"
 		(shape input)
 		(at 222.25 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1287,7 +1245,6 @@
 	(hierarchical_label "24V_IN"
 		(shape input)
 		(at 20.32 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1299,7 +1256,6 @@
 	(hierarchical_label "24V_IN"
 		(shape input)
 		(at 97.79 22.86 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1311,7 +1267,6 @@
 	(hierarchical_label "24V_IN"
 		(shape input)
 		(at 41.91 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1323,7 +1278,6 @@
 	(hierarchical_label "I2C_current_SDA"
 		(shape bidirectional)
 		(at 36.83 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1335,7 +1289,6 @@
 	(hierarchical_label "24V_OUT"
 		(shape input)
 		(at 40.64 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1347,7 +1300,6 @@
 	(hierarchical_label "I2C_current_SDA"
 		(shape bidirectional)
 		(at 38.1 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1359,7 +1311,6 @@
 	(hierarchical_label "cap_volt"
 		(shape input)
 		(at 110.49 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1371,7 +1322,6 @@
 	(hierarchical_label "I2C_current_SCL"
 		(shape bidirectional)
 		(at 36.83 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1383,7 +1333,6 @@
 	(hierarchical_label "24V_OUT"
 		(shape input)
 		(at 222.25 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1395,7 +1344,6 @@
 	(hierarchical_label "I2C_current_SCL"
 		(shape bidirectional)
 		(at 36.83 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1407,7 +1355,6 @@
 	(hierarchical_label "24_IN_PMM"
 		(shape input)
 		(at 20.32 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1419,7 +1366,6 @@
 	(hierarchical_label "PWM_bottom"
 		(shape input)
 		(at 76.2 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1431,7 +1377,6 @@
 	(hierarchical_label "CAP_IN"
 		(shape input)
 		(at 24.13 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1443,7 +1388,6 @@
 	(hierarchical_label "I2C_current_SCL"
 		(shape bidirectional)
 		(at 137.16 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1455,7 +1399,6 @@
 	(hierarchical_label "PWM_bottom"
 		(shape output)
 		(at 135.89 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1467,7 +1410,6 @@
 	(hierarchical_label "I2C_current_SDA"
 		(shape bidirectional)
 		(at 137.16 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1479,7 +1421,6 @@
 	(hierarchical_label "24_IN_PMM"
 		(shape input)
 		(at 195.58 64.77 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1491,7 +1432,6 @@
 	(hierarchical_label "cap_volt"
 		(shape output)
 		(at 38.1 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1503,7 +1443,6 @@
 	(hierarchical_label "I2C_current_SDA"
 		(shape bidirectional)
 		(at 36.83 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1515,7 +1454,6 @@
 	(hierarchical_label "PWM_top"
 		(shape input)
 		(at 76.2 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1527,7 +1465,6 @@
 	(hierarchical_label "I2C_current_SCL"
 		(shape bidirectional)
 		(at 38.1 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1539,7 +1476,6 @@
 	(hierarchical_label "24V_IN"
 		(shape input)
 		(at 20.32 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2212,7 +2148,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.935 97.79 0)
+		(at 120.65 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2220,7 +2156,7 @@
 		(dnp no)
 		(uuid "2d2cf920-e5d2-4004-9b98-4ba83f656d5b")
 		(property "Reference" "D1"
-			(at 113.3475 91.44 0)
+			(at 119.0625 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2165,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 113.3475 93.98 0)
+			(at 119.0625 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,7 +2174,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 114.935 97.79 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.935 97.79 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +2192,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.935 97.79 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +2893,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.935 95.25 0)
+		(at 111.76 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2965,7 +2901,7 @@
 		(dnp no)
 		(uuid "90be80e1-a733-4216-9933-eae0a422ef9d")
 		(property "Reference" "D3"
-			(at 113.3475 88.9 0)
+			(at 110.1725 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +2910,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 113.3475 91.44 0)
+			(at 110.1725 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +2919,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 114.935 95.25 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +2928,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.935 95.25 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +2937,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.935 95.25 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,7 +3564,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.935 90.17 0)
+		(at 111.76 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3636,7 +3572,7 @@
 		(dnp no)
 		(uuid "de4ea211-c65b-49b4-b556-4e550f49d330")
 		(property "Reference" "D5"
-			(at 113.3475 83.82 0)
+			(at 110.1725 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +3581,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 113.3475 86.36 0)
+			(at 110.1725 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +3590,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 114.935 90.17 0)
+			(at 111.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,7 +3599,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.935 90.17 0)
+			(at 111.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,7 +3608,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.935 90.17 0)
+			(at 111.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +3633,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.935 92.71 0)
+		(at 120.65 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3705,7 +3641,7 @@
 		(dnp no)
 		(uuid "e7909dcf-e586-4647-8dfd-b602f777e832")
 		(property "Reference" "D4"
-			(at 113.3475 86.36 0)
+			(at 119.0625 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3650,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 113.3475 88.9 0)
+			(at 119.0625 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3659,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 114.935 92.71 0)
+			(at 120.65 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,7 +3668,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.935 92.71 0)
+			(at 120.65 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3677,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.935 92.71 0)
+			(at 120.65 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3702,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.935 87.63 0)
+		(at 120.65 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3774,7 +3710,7 @@
 		(dnp no)
 		(uuid "eb333c1b-cce7-43fe-8276-cac2b3d51643")
 		(property "Reference" "D6"
-			(at 113.3475 81.28 0)
+			(at 119.0625 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +3719,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 113.3475 83.82 0)
+			(at 119.0625 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +3728,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 114.935 87.63 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +3737,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.935 87.63 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +3746,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.935 87.63 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +3837,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.935 82.55 0)
+		(at 120.65 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3909,7 +3845,7 @@
 		(dnp no)
 		(uuid "f7a282b6-42c2-4ba1-a8d2-e20026bc1a3e")
 		(property "Reference" "D8"
-			(at 113.3475 76.2 0)
+			(at 119.0625 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3854,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 113.3475 78.74 0)
+			(at 119.0625 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +3863,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 114.935 82.55 0)
+			(at 120.65 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3872,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.935 82.55 0)
+			(at 120.65 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3881,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.935 82.55 0)
+			(at 120.65 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +3906,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.935 100.33 0)
+		(at 111.76 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3978,7 +3914,7 @@
 		(dnp no)
 		(uuid "fabcb29d-27fb-464e-b989-cb48eac158cf")
 		(property "Reference" "D2"
-			(at 113.3475 93.98 0)
+			(at 110.1725 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +3923,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 113.3475 96.52 0)
+			(at 110.1725 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +3932,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 114.935 100.33 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +3941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.935 100.33 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +3950,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.935 100.33 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4040,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.935 85.09 0)
+		(at 111.76 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4112,7 +4048,7 @@
 		(dnp no)
 		(uuid "fe6cf259-c47c-4db2-b896-911d1fc17d3d")
 		(property "Reference" "D7"
-			(at 113.3475 78.74 0)
+			(at 110.1725 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4057,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 113.3475 81.28 0)
+			(at 110.1725 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,7 +4066,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 114.935 85.09 0)
+			(at 111.76 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +4075,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.935 85.09 0)
+			(at 111.76 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +4084,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.935 85.09 0)
+			(at 111.76 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
