@@ -1730,6 +1730,7 @@
 	(hierarchical_label "P_GND"
 		(shape input)
 		(at 62.23 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1741,6 +1742,7 @@
 	(hierarchical_label "GPIO_1"
 		(shape bidirectional)
 		(at 143.51 107.95 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1752,6 +1754,7 @@
 	(hierarchical_label "GPIO_0"
 		(shape bidirectional)
 		(at 143.51 110.49 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1763,6 +1766,7 @@
 	(hierarchical_label "24V_OUT"
 		(shape input)
 		(at 109.22 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1774,6 +1778,7 @@
 	(hierarchical_label "D_GND"
 		(shape input)
 		(at 62.23 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1785,6 +1790,7 @@
 	(hierarchical_label "I2C_TypeC_SDA"
 		(shape input)
 		(at 143.51 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1796,6 +1802,7 @@
 	(hierarchical_label "CAP_IN"
 		(shape input)
 		(at 85.09 138.43 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1807,6 +1814,7 @@
 	(hierarchical_label "GPIO_2"
 		(shape bidirectional)
 		(at 143.51 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1818,6 +1826,7 @@
 	(hierarchical_label "GPIO_5"
 		(shape bidirectional)
 		(at 143.51 69.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1829,6 +1838,7 @@
 	(hierarchical_label "GPIO_3"
 		(shape bidirectional)
 		(at 143.51 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1840,6 +1850,7 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 130.81 67.31 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1851,6 +1862,7 @@
 	(hierarchical_label "24_IN_PMM"
 		(shape input)
 		(at 102.87 110.49 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1862,6 +1874,7 @@
 	(hierarchical_label "GPIO_4"
 		(shape bidirectional)
 		(at 143.51 72.39 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1873,6 +1886,7 @@
 	(hierarchical_label "I2C_TypeC_SCL"
 		(shape input)
 		(at 143.51 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

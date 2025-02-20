@@ -866,9 +866,10 @@
 		)
 		(uuid "fd61e4dd-1ba2-43ee-98f8-5dbca2dd30d2")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "5V"
 		(shape input)
 		(at 120.65 88.9 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -880,6 +881,7 @@
 	(hierarchical_label "SDA"
 		(shape output)
 		(at 176.53 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -891,6 +893,7 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 158.75 114.3 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -902,6 +905,7 @@
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 158.75 78.74 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -913,6 +917,7 @@
 	(hierarchical_label "VIN+"
 		(shape input)
 		(at 134.62 74.93 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -924,6 +929,7 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 120.65 114.3 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -935,6 +941,7 @@
 	(hierarchical_label "SCL"
 		(shape output)
 		(at 176.53 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -946,6 +953,7 @@
 	(hierarchical_label "VIN-"
 		(shape input)
 		(at 144.78 74.93 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
