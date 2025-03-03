@@ -878,18 +878,6 @@
 		)
 		(uuid "0b82ccc0-bb26-4b57-b193-4706fa7ccd23")
 	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 154.94 88.9 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2abd6584-ebd5-4bbd-90aa-6d69f5e3bec2")
-	)
 	(hierarchical_label "5V"
 		(shape input)
 		(at 116.84 99.06 90)
@@ -949,6 +937,18 @@
 			(justify right)
 		)
 		(uuid "71183562-e554-4578-abd9-73c718873e50")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 154.94 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7db654a4-d9cc-4fde-9f4e-e25ce25b367d")
 	)
 	(hierarchical_label "VIN+"
 		(shape input)

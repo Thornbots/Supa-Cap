@@ -4291,16 +4291,6 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3" input
-			(at 24.13 111.76 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2f5e0ce6-c033-4cfe-b400-c2cf209fc9f0")
-		)
 		(pin "GND" input
 			(at 24.13 125.73 180)
 			(effects
@@ -4350,6 +4340,16 @@
 				(justify right)
 			)
 			(uuid "1ff5aff3-1439-4ee0-8f55-1ed818d5d55d")
+		)
+		(pin "5V" input
+			(at 24.13 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "349b75a7-d071-4618-b30f-c70366d79e9a")
 		)
 		(instances
 			(project "Control Board V1"
@@ -4875,16 +4875,6 @@
 			)
 			(uuid "a3ae114e-6f31-41b6-994e-cfde2ff03898")
 		)
-		(pin "GND_IN_PMM" input
-			(at 217.17 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "51436c1f-3b69-4e74-92f4-bb50a19a80bc")
-		)
 		(pin "CAP_IN" input
 			(at 217.17 87.63 0)
 			(effects
@@ -4963,16 +4953,6 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3" input
-			(at 24.13 45.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5ec27a1e-2a44-46d6-8c90-db08f4ede845")
-		)
 		(pin "VIN+" bidirectional
 			(at 24.13 49.53 180)
 			(effects
@@ -5022,6 +5002,16 @@
 				(justify right)
 			)
 			(uuid "10862b20-a340-424e-9b56-2624a7320fc1")
+		)
+		(pin "5V" input
+			(at 24.13 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd614d11-b88b-4441-a646-5457308a6996")
 		)
 		(instances
 			(project "Control Board V1"
@@ -5149,16 +5139,6 @@
 			)
 			(uuid "48a67556-9761-47d5-8e2c-13432bf609e2")
 		)
-		(pin "3V3" input
-			(at 24.13 78.74 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "67cc26ed-c123-42a2-a211-3cb0b9769373")
-		)
 		(pin "VIN-" bidirectional
 			(at 36.83 83.82 0)
 			(effects
@@ -5198,6 +5178,16 @@
 				(justify right)
 			)
 			(uuid "e9210d49-4a9e-4a79-8930-67dbf4dd3922")
+		)
+		(pin "5V" input
+			(at 24.13 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f0e2defa-378d-4610-92d5-4dcc193252e5")
 		)
 		(instances
 			(project "Control Board V1"

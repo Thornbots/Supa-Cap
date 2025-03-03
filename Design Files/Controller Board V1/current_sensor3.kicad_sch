@@ -902,18 +902,6 @@
 		)
 		(uuid "3031781e-8b57-4e7c-adb7-25fa15c65e00")
 	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 158.75 78.74 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3aca8f90-b221-4de2-a3f8-32cd38244747")
-	)
 	(hierarchical_label "VIN+"
 		(shape input)
 		(at 134.62 74.93 90)
@@ -937,6 +925,18 @@
 			(justify right)
 		)
 		(uuid "941a7878-a16e-4d0b-b86d-cb26268d4c83")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 158.75 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ff3455a-9cc3-4bed-90c6-7156d79c8f4f")
 	)
 	(hierarchical_label "SCL"
 		(shape output)
@@ -989,7 +989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "PGA460TW:R_0603_1608Metric"
 			(at 169.672 88.9 90)
 			(effects
 				(font
@@ -1058,7 +1058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "PGA460TW:R_0603_1608Metric"
 			(at 163.322 88.9 90)
 			(effects
 				(font
@@ -1128,7 +1128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "PGA460TW:C_0603_1608Metric"
 			(at 121.6152 105.41 0)
 			(effects
 				(font
@@ -1242,7 +1242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "PGA460TW:R_0603_1608Metric"
 			(at 156.972 88.9 90)
 			(effects
 				(font

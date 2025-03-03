@@ -1727,6 +1727,18 @@
 		)
 		(uuid "f9aeb2f7-7b57-4c91-aa26-27de29d64c2e")
 	)
+	(hierarchical_label "GPIO_2"
+		(shape bidirectional)
+		(at 143.51 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01c89b78-9d16-4114-a0d2-aee8851b1180")
+	)
 	(hierarchical_label "P_GND"
 		(shape input)
 		(at 62.23 71.12 180)
@@ -1738,30 +1750,6 @@
 			(justify right)
 		)
 		(uuid "0853eb34-f7d3-4390-831a-9943dc5f9ccf")
-	)
-	(hierarchical_label "GPIO_1"
-		(shape bidirectional)
-		(at 143.51 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e1bbc90-1727-4df0-a2e1-69036192e6cc")
-	)
-	(hierarchical_label "GPIO_0"
-		(shape bidirectional)
-		(at 143.51 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "114a70af-760f-4f12-b829-aeff92a06e10")
 	)
 	(hierarchical_label "24V_OUT"
 		(shape input)
@@ -1775,6 +1763,18 @@
 		)
 		(uuid "13758bd0-20cd-4239-ae72-abe076dfad75")
 	)
+	(hierarchical_label "GPIO_5"
+		(shape bidirectional)
+		(at 143.51 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "369c1fb7-90f9-48ef-adce-71781cf48e0e")
+	)
 	(hierarchical_label "D_GND"
 		(shape input)
 		(at 62.23 58.42 180)
@@ -1787,9 +1787,9 @@
 		)
 		(uuid "599a6465-c07a-4c6c-abe4-86b34449f6fa")
 	)
-	(hierarchical_label "I2C_TypeC_SDA"
-		(shape input)
-		(at 143.51 48.26 180)
+	(hierarchical_label "GPIO_0"
+		(shape bidirectional)
+		(at 143.51 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1797,7 +1797,7 @@
 			)
 			(justify right)
 		)
-		(uuid "75f05eef-fc2d-49d5-b084-901aafcf6cd4")
+		(uuid "72a80e42-7877-4793-a8ca-340dc2bc2b8e")
 	)
 	(hierarchical_label "CAP_IN"
 		(shape input)
@@ -1811,7 +1811,7 @@
 		)
 		(uuid "7ac4ecf7-9341-46ba-9225-43f0535e5fa8")
 	)
-	(hierarchical_label "GPIO_2"
+	(hierarchical_label "GPIO_3"
 		(shape bidirectional)
 		(at 143.51 91.44 180)
 		(fields_autoplaced yes)
@@ -1821,11 +1821,11 @@
 			)
 			(justify right)
 		)
-		(uuid "a2eabe3c-d22a-432f-89ed-bc3395a25c46")
+		(uuid "9094f087-45e2-42ab-aa7a-7721ce8a249d")
 	)
-	(hierarchical_label "GPIO_5"
-		(shape bidirectional)
-		(at 143.51 69.85 180)
+	(hierarchical_label "I2C_TypeC_SCL"
+		(shape input)
+		(at 143.51 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1833,19 +1833,7 @@
 			)
 			(justify right)
 		)
-		(uuid "bb4264e8-55c6-4f65-a9de-f1060b60f829")
-	)
-	(hierarchical_label "GPIO_3"
-		(shape bidirectional)
-		(at 143.51 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c118d15b-733a-431d-b64a-1f06fd2cdb98")
+		(uuid "a77ef639-4958-4abb-ac55-72f892ff7a7c")
 	)
 	(hierarchical_label "5V"
 		(shape input)
@@ -1858,6 +1846,30 @@
 			(justify right)
 		)
 		(uuid "c1ef9529-b4a0-4ac9-baa3-5e69d11deff6")
+	)
+	(hierarchical_label "I2C_TypeC_SDA"
+		(shape input)
+		(at 143.51 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5ce90e8-5598-4cd2-a8fd-801a071ef7ae")
+	)
+	(hierarchical_label "GPIO_1"
+		(shape bidirectional)
+		(at 143.51 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de36acb5-04ac-490b-80f0-dd573df3f578")
 	)
 	(hierarchical_label "24_IN_PMM"
 		(shape input)
@@ -1873,7 +1885,7 @@
 	)
 	(hierarchical_label "GPIO_4"
 		(shape bidirectional)
-		(at 143.51 72.39 180)
+		(at 143.51 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1881,19 +1893,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e795ad46-6ab3-4ead-8409-a4ca38b33881")
-	)
-	(hierarchical_label "I2C_TypeC_SCL"
-		(shape input)
-		(at 143.51 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fd1e9dec-976c-4cae-af3e-f36523aa1955")
+		(uuid "fb99bd5d-efbf-49a3-9ba8-58ce49436de6")
 	)
 	(symbol
 		(lib_id "SM04B-GHS-TB_LF__SN_-:SM04B-GHS-TB_LF__SN_-")
@@ -1923,7 +1923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SM04B-GHS-TB_LF__SN_-:JST_SM04B-GHS-TB_LF__SN_-"
+		(property "Footprint" "PGA460TW:JST_SM04B-GHS-TB_LF__SN_-"
 			(at 153.67 91.44 0)
 			(effects
 				(font
@@ -2376,7 +2376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SM04B-GHS-TB_LF__SN_-:JST_SM04B-GHS-TB_LF__SN_-"
+		(property "Footprint" "PGA460TW:JST_SM04B-GHS-TB_LF__SN_-"
 			(at 153.67 110.49 0)
 			(effects
 				(font
@@ -4215,7 +4215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SM04B-GHS-TB_LF__SN_-:JST_SM04B-GHS-TB_LF__SN_-"
+		(property "Footprint" "PGA460TW:JST_SM04B-GHS-TB_LF__SN_-"
 			(at 153.67 72.39 0)
 			(effects
 				(font
