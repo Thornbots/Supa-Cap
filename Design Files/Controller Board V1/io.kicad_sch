@@ -2549,10 +2549,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2667636d-c149-48e1-be42-3a4e7fc73f17")
 		(property "Reference" "C9"
-			(at 113.03 63.5 90)
+			(at 110.49 69.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2559,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 113.03 66.04 90)
+			(at 115.824 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,10 +3340,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4bb190b5-b3fa-422d-8ad1-dbdfed515378")
 		(property "Reference" "C8"
-			(at 113.03 72.39 90)
+			(at 110.236 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3350,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 113.03 74.93 90)
+			(at 116.078 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,10 +5302,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f381f5b7-511b-4cea-86b5-f5844edb5db0")
 		(property "Reference" "C10"
-			(at 113.03 54.61 90)
+			(at 109.982 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5315,7 +5312,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 113.03 57.15 90)
+			(at 116.332 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,10 +5369,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f7ed042a-71b3-4063-8b00-2c9b260f7e00")
 		(property "Reference" "C7"
-			(at 113.03 81.28 90)
+			(at 110.49 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5379,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 113.03 83.82 90)
+			(at 116.078 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,10 +5436,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f90b88a2-5395-49aa-9820-ae72097dce93")
 		(property "Reference" "C11"
-			(at 106.68 110.49 90)
+			(at 103.632 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5446,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 106.68 113.03 90)
+			(at 109.728 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
