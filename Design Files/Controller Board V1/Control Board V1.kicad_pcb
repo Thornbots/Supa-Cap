@@ -26289,6 +26289,18 @@
 		(net 22)
 		(uuid "5e960d50-e155-412f-96fc-e3142376b7e8")
 	)
+	(gr_rect
+		(start 117.905 108.69)
+		(end 119.195 109.98)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "690314e3-3e51-4d92-8647-bd3aa9baa657")
+	)
 	(gr_poly
 		(pts
 			(xy 102.15 119.05) (xy 102.15 119.95) (xy 101.95 120.5) (xy 101.945 123.25) (xy 100.65 124.65) (xy 100.65 127.5)
