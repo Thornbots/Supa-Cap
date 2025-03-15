@@ -2427,7 +2427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "P_GND"
+		(property "Value" "D_GND"
 			(at 163.576 134.62 0)
 			(effects
 				(font
@@ -2580,7 +2580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "P_GND"
+		(property "Value" "D_GND"
 			(at 161.29 159.766 0)
 			(effects
 				(font

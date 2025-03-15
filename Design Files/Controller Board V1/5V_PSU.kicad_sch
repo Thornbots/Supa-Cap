@@ -733,12 +733,6 @@
 		(uuid "15fcb152-6b80-4616-8a06-9b070d768b62")
 	)
 	(junction
-		(at 206.248 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64ce6ac6-2d19-4ca4-b7e2-3f78507cea61")
-	)
-	(junction
 		(at 206.248 87.376)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -749,6 +743,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "850dd3ba-49eb-4ffd-830a-4412ffb3f198")
+	)
+	(junction
+		(at 206.248 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c8d3bd6-d3b0-454f-b372-968b4daacf5d")
 	)
 	(junction
 		(at 174.498 87.376)
@@ -888,16 +888,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.758 101.6) (xy 228.346 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c4d6bc0-f6e8-4dcc-91c2-18dd340b4b6d")
-	)
-	(wire
-		(pts
 			(xy 174.498 83.566) (xy 174.498 87.376)
 		)
 		(stroke
@@ -908,6 +898,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 120.65) (xy 218.44 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40add03c-c2b9-4134-8223-46cb08d9a7a8")
+	)
+	(wire
+		(pts
 			(xy 87.122 120.65) (xy 104.394 120.65)
 		)
 		(stroke
@@ -915,6 +915,16 @@
 			(type default)
 		)
 		(uuid "4bbadaee-18d2-41ce-98dd-091d7ea39dfc")
+	)
+	(wire
+		(pts
+			(xy 222.25 101.6) (xy 228.346 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce98897-0951-4f90-bd08-101f28f3f46a")
 	)
 	(wire
 		(pts
@@ -1048,16 +1058,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.758 120.65) (xy 206.248 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a74ab8e7-58ad-422b-908e-65a854782254")
-	)
-	(wire
-		(pts
 			(xy 167.64 87.376) (xy 174.498 87.376)
 		)
 		(stroke
@@ -1068,23 +1068,23 @@
 	)
 	(wire
 		(pts
-			(xy 222.758 101.6) (xy 222.758 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b885be66-96e6-466c-9336-c5ba479e1743")
-	)
-	(wire
-		(pts
-			(xy 206.248 120.65) (xy 188.976 120.65)
+			(xy 188.976 120.65) (xy 206.248 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b8e64309-f316-4a9b-97e1-a90b5f3b3116")
+	)
+	(wire
+		(pts
+			(xy 222.25 101.6) (xy 222.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e8433f-ee89-4c6f-887b-aaf4a74469e4")
 	)
 	(wire
 		(pts
@@ -1165,6 +1165,16 @@
 			(type default)
 		)
 		(uuid "ddfa5b6b-41bd-4062-bcf2-768398a7e541")
+	)
+	(wire
+		(pts
+			(xy 206.248 120.65) (xy 210.82 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de942803-8779-4399-9a01-14e64e5fa978")
 	)
 	(wire
 		(pts
@@ -1804,6 +1814,119 @@
 			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
 					(reference "Cout1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 214.63 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a27c010b-b571-499a-8247-e9b5f9feb1e0")
+		(property "Reference" "Rfbb2"
+			(at 214.63 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0 Ohm"
+			(at 214.63 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 214.63 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 214.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 214.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 214.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 214.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 214.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37515a69-23ff-46a3-9a26-ec1ff3aab5bf")
+		)
+		(pin "2"
+			(uuid "c25884b6-47ed-4ecf-b9ce-293407839dda")
+		)
+		(instances
+			(project "Control Board V1"
+				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
+					(reference "Rfbb2")
 					(unit 1)
 				)
 			)
