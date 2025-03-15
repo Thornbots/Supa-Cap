@@ -12,8 +12,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 2.54 0)
+			(property "Reference" "U6"
+				(at 17.78 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -21,14 +21,14 @@
 				)
 			)
 			(property "Value" "TCA39306DCUR"
-				(at 14.224 -19.05 0)
+				(at 17.78 7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "DCU0008A-IPC_A"
+			(property "Footprint" "PGA460TW:DCU0008A-MFG"
 				(at 1.524 10.668 0)
 				(effects
 					(font
@@ -169,7 +169,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -10.16 0)
+					(at 0 -12.7 0)
 					(length 5.08)
 					(name "SCL1"
 						(effects
@@ -187,7 +187,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -12.7 0)
+					(at 0 -10.16 0)
 					(length 5.08)
 					(name "SDA1"
 						(effects
@@ -1564,12 +1564,6 @@
 		(uuid "1088f5e2-8649-449a-a20b-1fdd430a3073")
 	)
 	(junction
-		(at 177.8 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18e42b2f-15cb-4468-a7f6-d0994a72f535")
-	)
-	(junction
 		(at 184.15 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1582,10 +1576,22 @@
 		(uuid "2d2a811c-f266-4635-b7dd-9e3290dee42b")
 	)
 	(junction
+		(at 184.15 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ca4b09e-910b-4293-b16b-1f1f24f8d7c0")
+	)
+	(junction
 		(at 233.68 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "668a1ef8-67bd-4819-b6f4-9eb7ea752f40")
+	)
+	(junction
+		(at 177.8 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "677583c2-2778-40be-823a-9a9c28525c97")
 	)
 	(junction
 		(at 233.68 59.69)
@@ -1610,12 +1616,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a07f8910-fd4d-415f-acf0-0feb1bdafb12")
-	)
-	(junction
-		(at 184.15 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3fa7b17-39ea-4382-bf58-977cc0d3f895")
 	)
 	(junction
 		(at 161.29 139.7)
@@ -1727,16 +1727,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 83.82) (xy 177.8 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04b64f10-22cd-4476-a3f1-bc0452909d19")
-	)
-	(wire
-		(pts
 			(xy 158.75 152.4) (xy 161.29 152.4)
 		)
 		(stroke
@@ -1754,6 +1744,16 @@
 			(type default)
 		)
 		(uuid "1f26a6dc-f5cd-47b1-aa67-3a727d8b6748")
+	)
+	(wire
+		(pts
+			(xy 184.15 76.2) (xy 184.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a5dcde-8829-4cba-be93-66ec651d45a1")
 	)
 	(wire
 		(pts
@@ -1817,6 +1817,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 81.28) (xy 190.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547f8326-5125-46fa-ab44-9effe6e34ebe")
+	)
+	(wire
+		(pts
 			(xy 226.06 71.12) (xy 226.06 76.2)
 		)
 		(stroke
@@ -1837,7 +1847,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 60.96) (xy 177.8 72.39)
+			(xy 177.8 60.96) (xy 177.8 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1854,16 +1864,6 @@
 			(type default)
 		)
 		(uuid "629fb995-1f5e-4aa9-9c24-40bbeb497032")
-	)
-	(wire
-		(pts
-			(xy 184.15 76.2) (xy 184.15 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d523883-43a6-471c-84f6-d8ee5d58978b")
 	)
 	(wire
 		(pts
@@ -1957,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 81.28) (xy 190.5 81.28)
+			(xy 158.75 81.28) (xy 177.8 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1967,13 +1967,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 80.01) (xy 177.8 83.82)
+			(xy 184.15 83.82) (xy 190.5 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6605bbf-40fd-4d2b-8452-f29a48bb84b0")
+		(uuid "a1e15c2c-e346-4420-a778-4f0c71f8d6b9")
 	)
 	(wire
 		(pts
@@ -2004,6 +2004,16 @@
 			(type default)
 		)
 		(uuid "bc6b2670-a63c-4fe4-9b3f-a77ba6a7853a")
+	)
+	(wire
+		(pts
+			(xy 177.8 76.2) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5721563-8e83-413e-b6b5-4a6d25e93144")
 	)
 	(wire
 		(pts
@@ -2077,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 83.82) (xy 190.5 83.82)
+			(xy 158.75 83.82) (xy 184.15 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2134,16 +2144,6 @@
 			(type default)
 		)
 		(uuid "fc981ca5-6cd9-4d4a-8174-f62f41a60525")
-	)
-	(wire
-		(pts
-			(xy 158.75 81.28) (xy 184.15 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fed6ad69-db31-4dd7-8a75-bd854850e48b")
 	)
 	(hierarchical_label "GPIO_4"
 		(shape bidirectional)
@@ -2554,7 +2554,7 @@
 			(uuid "10895fb8-ed43-4f7c-a5d3-d79abe007dd5")
 		)
 		(instances
-			(project ""
+			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/3a200091-b439-443c-a136-2aec626b67e4"
 					(reference "U6")
 					(unit 1)
@@ -2970,7 +2970,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 177.8 76.2 0)
+		(at 177.8 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2978,7 +2978,7 @@
 		(dnp no)
 		(uuid "f465a0a6-5e7f-4deb-a9e1-a70cac8b0f13")
 		(property "Reference" "R26"
-			(at 179.832 75.184 0)
+			(at 179.832 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,7 +2987,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 179.578 76.962 0)
+			(at 179.578 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,7 +2996,7 @@
 			)
 		)
 		(property "Footprint" "PGA460TW:R_0603_1608Metric"
-			(at 176.022 76.2 90)
+			(at 176.022 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,7 +3005,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 76.2 0)
+			(at 177.8 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +3014,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 177.8 76.2 0)
+			(at 177.8 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
