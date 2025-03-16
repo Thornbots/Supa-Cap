@@ -2148,7 +2148,6 @@
 	(hierarchical_label "GPIO_4"
 		(shape bidirectional)
 		(at 107.95 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2160,7 +2159,6 @@
 	(hierarchical_label "GPIO_2"
 		(shape bidirectional)
 		(at 107.95 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2172,7 +2170,6 @@
 	(hierarchical_label "GPIO_5"
 		(shape bidirectional)
 		(at 107.95 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2184,7 +2181,6 @@
 	(hierarchical_label "PWM_top"
 		(shape output)
 		(at 158.75 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2196,7 +2192,6 @@
 	(hierarchical_label "LED5"
 		(shape output)
 		(at 107.95 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2208,7 +2203,6 @@
 	(hierarchical_label "LED7"
 		(shape output)
 		(at 107.95 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2220,7 +2214,6 @@
 	(hierarchical_label "LED3"
 		(shape output)
 		(at 107.95 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2232,7 +2225,6 @@
 	(hierarchical_label "LED0"
 		(shape output)
 		(at 158.75 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2244,7 +2236,6 @@
 	(hierarchical_label "3.3V"
 		(shape output)
 		(at 184.15 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2256,7 +2247,6 @@
 	(hierarchical_label "I2C_TypeC_SDA"
 		(shape bidirectional)
 		(at 107.95 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2268,7 +2258,6 @@
 	(hierarchical_label "GPIO_0"
 		(shape bidirectional)
 		(at 158.75 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2280,7 +2269,6 @@
 	(hierarchical_label "I2C_Current_SCL"
 		(shape bidirectional)
 		(at 248.92 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2292,7 +2280,6 @@
 	(hierarchical_label "GPIO_3"
 		(shape bidirectional)
 		(at 107.95 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2304,7 +2291,6 @@
 	(hierarchical_label "I2C_TypeC_SCL"
 		(shape bidirectional)
 		(at 107.95 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2316,7 +2302,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 233.68 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2328,7 +2313,6 @@
 	(hierarchical_label "LED4"
 		(shape output)
 		(at 107.95 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2340,7 +2324,6 @@
 	(hierarchical_label "I2C_Current_SDA"
 		(shape bidirectional)
 		(at 248.92 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2352,7 +2335,6 @@
 	(hierarchical_label "GPIO_1"
 		(shape bidirectional)
 		(at 107.95 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2364,7 +2346,6 @@
 	(hierarchical_label "LED6"
 		(shape output)
 		(at 107.95 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2376,7 +2357,6 @@
 	(hierarchical_label "PWM_bottom"
 		(shape output)
 		(at 158.75 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2388,7 +2368,6 @@
 	(hierarchical_label "LED1"
 		(shape output)
 		(at 158.75 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2400,7 +2379,6 @@
 	(hierarchical_label "LED2"
 		(shape output)
 		(at 107.95 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2645,7 +2623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "P_GND"
+		(property "Value" "D_GND"
 			(at 226.06 93.726 0)
 			(effects
 				(font

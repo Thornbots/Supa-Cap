@@ -775,6 +775,12 @@
 		(uuid "997f506f-083e-4934-a3be-66ba10f4fbed")
 	)
 	(junction
+		(at 142.24 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dc768ea-d312-4c16-950d-9e8f32cf8748")
+	)
+	(junction
 		(at 188.976 101.092)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -785,6 +791,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7e8b387-99b8-4b53-9996-cb7fa88f460c")
+	)
+	(junction
+		(at 188.976 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5e9810f-4bd8-4386-bec6-89de038d01b5")
 	)
 	(wire
 		(pts
@@ -968,6 +980,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 120.65) (xy 188.976 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7adeadf6-c000-4abc-b915-d01e96704277")
+	)
+	(wire
+		(pts
 			(xy 104.394 106.68) (xy 104.394 120.65)
 		)
 		(stroke
@@ -1068,16 +1090,6 @@
 	)
 	(wire
 		(pts
-			(xy 188.976 120.65) (xy 206.248 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8e64309-f316-4a9b-97e1-a90b5f3b3116")
-	)
-	(wire
-		(pts
 			(xy 222.25 101.6) (xy 222.25 120.65)
 		)
 		(stroke
@@ -1115,6 +1127,16 @@
 			(type default)
 		)
 		(uuid "c1ffb87a-eb1c-4824-96f9-c94fad2630fe")
+	)
+	(wire
+		(pts
+			(xy 188.976 120.65) (xy 206.248 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c601a517-0173-4efa-bf55-3de00bda557d")
 	)
 	(wire
 		(pts
@@ -1199,7 +1221,6 @@
 	(hierarchical_label "D_GND"
 		(shape input)
 		(at 228.346 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1211,7 +1232,6 @@
 	(hierarchical_label "IOUT"
 		(shape input)
 		(at 228.346 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1223,7 +1243,6 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 77.47 99.822 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1235,7 +1254,6 @@
 	(hierarchical_label "P_GND"
 		(shape input)
 		(at 77.47 102.362 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1243,18 +1261,6 @@
 			(justify right)
 		)
 		(uuid "a4e9bf07-6690-4930-91ce-1b4a2fc7ee88")
-	)
-	(hierarchical_label "P_GND"
-		(shape input)
-		(at 207.01 120.65 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad7dc9d7-529f-4e98-87d7-697c2c5cb497")
 	)
 	(symbol
 		(lib_id "Device:C")
