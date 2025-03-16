@@ -2232,7 +2232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D_GND"
+		(property "Value" "P_GND"
 			(at 108.204 83.82 0)
 			(effects
 				(font

@@ -1244,6 +1244,18 @@
 		)
 		(uuid "a4e9bf07-6690-4930-91ce-1b4a2fc7ee88")
 	)
+	(hierarchical_label "P_GND"
+		(shape input)
+		(at 207.01 120.65 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad7dc9d7-529f-4e98-87d7-697c2c5cb497")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 118.618 102.616 0)
