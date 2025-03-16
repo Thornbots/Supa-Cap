@@ -910,16 +910,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 120.65) (xy 218.44 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40add03c-c2b9-4134-8223-46cb08d9a7a8")
-	)
-	(wire
-		(pts
 			(xy 87.122 120.65) (xy 104.394 120.65)
 		)
 		(stroke
@@ -1190,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.248 120.65) (xy 210.82 120.65)
+			(xy 206.248 120.65) (xy 222.25 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1832,119 +1822,6 @@
 			(project "Control Board V1"
 				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
 					(reference "Cout1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 214.63 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a27c010b-b571-499a-8247-e9b5f9feb1e0")
-		(property "Reference" "Rfbb2"
-			(at 214.63 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0 Ohm"
-			(at 214.63 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 214.63 122.428 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 214.63 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 214.63 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 214.63 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 214.63 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 214.63 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 214.63 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37515a69-23ff-46a3-9a26-ec1ff3aab5bf")
-		)
-		(pin "2"
-			(uuid "c25884b6-47ed-4ecf-b9ce-293407839dda")
-		)
-		(instances
-			(project "Control Board V1"
-				(path "/e0c606b8-cbb9-4aff-b96c-73876da6ca74/e33a9390-58bb-4e98-90e4-3dcddb5af9e9"
-					(reference "Rfbb2")
 					(unit 1)
 				)
 			)
