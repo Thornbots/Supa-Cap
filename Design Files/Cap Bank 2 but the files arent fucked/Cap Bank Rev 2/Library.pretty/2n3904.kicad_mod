@@ -1,0 +1,210 @@
+(footprint "2n3904"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
+	(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
+	(property "Reference" "Q1"
+		(at 1.27 -3.56 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "38d70d74-a5bb-4069-b7ab-4737128080de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2N3904"
+		(at 1.27 2.79 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66e90076-bd29-478f-be0f-d4e66be9d9b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4fb70ca-9d41-457f-9740-b323ed585a94")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80955c13-fb20-4e81-99ad-a8d1df3d9e64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.805 1.85)
+		(end 1.795 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89abe336-de93-4a2a-b0a5-74f651a8df0e")
+	)
+	(fp_arc
+		(start -1.843478 1.838478)
+		(mid -2.407087 -0.994977)
+		(end -0.005 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b25d0667-6e0b-44c1-9325-f1e929fa42be")
+	)
+	(fp_arc
+		(start -0.005 -2.6)
+		(mid 2.397087 -0.994977)
+		(end 1.833478 1.838478)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ff9c4ad-ebad-4106-8737-fa7c98ddb08c")
+	)
+	(fp_line
+		(start -2.735 -2.73)
+		(end -2.735 2.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03c18ec2-183d-4151-bbb3-30539ed13f50")
+	)
+	(fp_line
+		(start -2.735 -2.73)
+		(end 2.725 -2.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33bbbbd8-efd9-43de-a05f-573f978d9cbc")
+	)
+	(fp_line
+		(start 2.725 2.01)
+		(end -2.735 2.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ca54ba1-2542-4942-b5cb-fbc9daf830db")
+	)
+	(fp_line
+		(start 2.725 2.01)
+		(end 2.725 -2.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8550a69f-289d-456f-8172-e9ff084f270f")
+	)
+	(fp_line
+		(start -1.775 1.75)
+		(end 1.725 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b02afc49-6fbe-4638-896e-102d96c88164")
+	)
+	(fp_arc
+		(start -1.758625 1.753625)
+		(mid -2.296221 -0.949055)
+		(end -0.005 -2.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6289fbe-aebf-469f-b7e2-a372a76ec3ff")
+	)
+	(fp_arc
+		(start -0.005 -2.48)
+		(mid 2.286221 -0.949055)
+		(end 1.748625 1.753625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8617107e-d5ce-4638-9b60-a232b8624e2d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.005 0 0)
+		(layer "F.Fab")
+		(uuid "62dbf8d9-a6f2-456a-8e35-9390392ae58e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.275 -1.5)
+		(size 1.05 1.5)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eefad0f4-ceee-4966-93a9-fd1f1fbfcda6")
+	)
+	(pad "2" thru_hole oval
+		(at -0.005 1)
+		(size 1.05 1.5)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa9ba615-e21a-46f6-90ff-5b0c98898f70")
+	)
+	(pad "3" thru_hole oval
+		(at 1.25 -1.5)
+		(size 1.05 1.5)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "78ceb95a-b562-4aa5-9677-ca482873fe09")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
