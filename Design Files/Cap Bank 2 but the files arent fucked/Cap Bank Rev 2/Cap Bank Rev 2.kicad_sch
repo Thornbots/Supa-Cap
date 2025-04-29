@@ -675,6 +675,12 @@
 		(uuid "319df1af-f05e-4ab8-afb3-07dac8f673bc")
 	)
 	(junction
+		(at 171.45 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3670dac7-433b-47d2-8f4e-ae4ba8402523")
+	)
+	(junction
 		(at 147.32 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -703,6 +709,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b3a27a9-6123-4c18-b8d2-9d3cbad88f70")
+	)
+	(junction
+		(at 171.45 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "715fe625-70b8-4383-abc4-d05fbd21b401")
 	)
 	(junction
 		(at 142.24 85.09)
@@ -808,7 +820,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 120.65) (xy 147.32 120.65)
+			(xy 171.45 120.65) (xy 147.32 120.65)
 		)
 		(stroke
 			(width 0)
@@ -878,7 +890,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 157.48 120.65)
+			(xy 171.45 97.79) (xy 171.45 120.65)
 		)
 		(stroke
 			(width 0)
@@ -928,7 +940,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 72.39) (xy 157.48 95.25)
+			(xy 171.45 72.39) (xy 171.45 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +1140,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 72.39) (xy 157.48 72.39)
+			(xy 147.32 72.39) (xy 171.45 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1278,7 +1290,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 157.48 120.65 0)
+		(at 171.45 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1289,7 +1301,7 @@
 	)
 	(hierarchical_label "V_IN"
 		(shape input)
-		(at 157.48 72.39 0)
+		(at 171.45 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1297,78 +1309,6 @@
 			(justify left)
 		)
 		(uuid "dce1bfe1-c7a5-4963-a057-4638ae69b739")
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 147.32 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03314d03-3a0a-4afc-a05b-fda0f4e73a27")
-		(property "Reference" "C8"
-			(at 151.13 113.4109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 151.13 115.9509 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Library:smallcap"
-			(at 148.2852 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 147.32 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ebe7db84-6610-49a5-81a8-359589f06332")
-		)
-		(pin "1"
-			(uuid "111898a8-6e6b-407d-95fe-18806a4d5483")
-		)
-		(instances
-			(project "Cap Bank Rev 2"
-				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
@@ -1521,78 +1461,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 147.32 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a20169a-ad9d-4922-91d6-58d3d5b04d4c")
-		(property "Reference" "C4"
-			(at 151.13 88.0109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 151.13 90.5509 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Library:smallcap"
-			(at 148.2852 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 147.32 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a4df8f1e-8430-4db5-bf9d-065c93864fc2")
-		)
-		(pin "1"
-			(uuid "d77836f4-5cdf-41ac-8900-288a4843914e")
-		)
-		(instances
-			(project "Cap Bank Rev 2"
-				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 133.35 95.25 90)
 		(unit 1)
@@ -1661,6 +1529,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 176.53 97.79 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33d9f96e-6084-458c-90af-7e47ba17630a")
+		(property "Reference" "J2"
+			(at 179.07 97.7901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 179.07 95.2501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3347dc94-3126-450e-8b3a-cd4ef975e690")
+		)
+		(pin "1"
+			(uuid "6d1dfadc-5df3-4aaf-b44b-2700955ca710")
+		)
+		(instances
+			(project "Cap Bank Rev 2"
+				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 142.24 102.87 0)
 		(unit 1)
@@ -1688,7 +1626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:bigcap2pos"
+		(property "Footprint" "Library:bigcap"
 			(at 143.2052 106.68 0)
 			(effects
 				(font
@@ -1758,7 +1696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:bigcap2neg"
+		(property "Footprint" "Library:bigcap"
 			(at 143.2052 93.98 0)
 			(effects
 				(font
@@ -2103,7 +2041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:bigcap2pos"
+		(property "Footprint" "Library:bigcap"
 			(at 143.2052 81.28 0)
 			(effects
 				(font
@@ -2140,78 +2078,6 @@
 			(project "Cap Bank Rev 2"
 				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 147.32 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81ecc7c6-4eee-428d-a7ee-2b4311aa80d3")
-		(property "Reference" "C6"
-			(at 151.13 100.7109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 151.13 103.2509 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Library:smallcap"
-			(at 148.2852 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 147.32 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0811596c-5c4e-47ba-a93d-738054874fd1")
-		)
-		(pin "1"
-			(uuid "5810de45-3612-405a-80b8-cb16f0380ceb")
-		)
-		(instances
-			(project "Cap Bank Rev 2"
-				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2293,80 +2159,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 147.32 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a433826b-7c2a-4abd-8c44-b0406015f1bb")
-		(property "Reference" "C2"
-			(at 151.13 75.3109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 151.13 77.8509 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Library:smallcap"
-			(at 148.2852 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 147.32 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "caa7f379-40ba-4a17-bd8c-17e74e3195c4")
-		)
-		(pin "1"
-			(uuid "b0d273ab-8105-46e2-b45d-d32cac31685a")
-		)
-		(instances
-			(project "Cap Bank Rev 2"
-				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 162.56 95.25 0)
+		(at 166.37 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2375,7 +2169,7 @@
 		(fields_autoplaced yes)
 		(uuid "a71fd1ac-e804-460f-b4fe-b55161b58a2d")
 		(property "Reference" "J1"
-			(at 165.1 95.2499 0)
+			(at 163.83 97.7901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,7 +2178,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 165.1 97.7899 0)
+			(at 163.83 95.2501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,8 +2186,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:xt30"
-			(at 162.56 95.25 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 166.37 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +2196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 95.25 0)
+			(at 166.37 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2205,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 162.56 95.25 0)
+			(at 166.37 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:bigcap2neg"
+		(property "Footprint" "Library:bigcap"
 			(at 143.2052 119.38 0)
 			(effects
 				(font
