@@ -308,6 +308,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -432,7 +615,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:2N3904"
+		(symbol "Transistor_BJT:TIP41"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -441,7 +624,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 6.35 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -449,8 +632,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N3904"
-				(at 5.08 0 0)
+			(property "Value" "TIP41"
+				(at 6.35 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -458,8 +641,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 6.35 -1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -469,7 +652,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -479,7 +662,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(property "Description" "6A Ic, 40V Vce, Power NPN Transistor, TO-220"
 				(at 0 0 0)
 				(effects
 					(font
@@ -488,7 +671,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "ki_keywords" "power NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -497,7 +680,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "TO?220*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -506,7 +689,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N3904_0_1"
+			(symbol "TIP41_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -543,7 +726,7 @@
 					)
 				)
 			)
-			(symbol "2N3904_1_1"
+			(symbol "TIP41_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -590,7 +773,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -608,7 +791,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -626,7 +809,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -639,28 +822,10 @@
 		)
 	)
 	(junction
-		(at 129.54 115.57)
+		(at 137.16 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "03080de6-fe66-4201-aced-620fa4c36aa1")
-	)
-	(junction
-		(at 147.32 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fea3bf0-e1d3-4a2a-9095-b046ac4b7340")
-	)
-	(junction
-		(at 142.24 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15aa89d8-58af-4c03-af58-c00f337420f6")
-	)
-	(junction
-		(at 137.16 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f2e9fe3-b4a5-4579-b90e-abf3eaf39677")
+		(uuid "095b77fb-010e-4bbb-812c-ea9cae5d2d2f")
 	)
 	(junction
 		(at 142.24 120.65)
@@ -669,10 +834,28 @@
 		(uuid "207f6342-0715-4179-ade9-82d55ebf5dd3")
 	)
 	(junction
+		(at 137.16 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20df2adb-7699-476f-a825-b764cf5b2d45")
+	)
+	(junction
+		(at 129.54 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2744f060-9646-42d8-9c6c-c01c19ba7eee")
+	)
+	(junction
 		(at 137.16 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "319df1af-f05e-4ab8-afb3-07dac8f673bc")
+		(uuid "2c412e02-19a9-4f75-9030-db61efe605e9")
+	)
+	(junction
+		(at 129.54 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e7c36b7-9be1-468b-ad1f-c3bdceb4cc71")
 	)
 	(junction
 		(at 171.45 97.79)
@@ -681,34 +864,16 @@
 		(uuid "3670dac7-433b-47d2-8f4e-ae4ba8402523")
 	)
 	(junction
-		(at 147.32 120.65)
+		(at 171.45 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "392df5a4-86f9-4a41-8621-9255fa78508e")
+		(uuid "51900547-d0d5-4af3-b658-73576b07fa52")
 	)
 	(junction
-		(at 147.32 95.25)
+		(at 137.16 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3ab2dcdb-97f1-4acf-8913-2e73cc2c594b")
-	)
-	(junction
-		(at 142.24 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40df2a0b-d6ce-4cf7-8166-6a2f0ed6a6af")
-	)
-	(junction
-		(at 147.32 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bae9014-1bcd-4381-b9fc-d7f5bef8dfa6")
-	)
-	(junction
-		(at 137.16 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b3a27a9-6123-4c18-b8d2-9d3cbad88f70")
+		(uuid "692217ca-3b3c-473b-9963-88c3aefaa924")
 	)
 	(junction
 		(at 171.45 95.25)
@@ -717,116 +882,52 @@
 		(uuid "715fe625-70b8-4383-abc4-d05fbd21b401")
 	)
 	(junction
-		(at 142.24 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77621bdc-6365-4415-b516-a9d20be3ab00")
-	)
-	(junction
-		(at 142.24 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ede74d1-bbac-4c1f-9db5-1d01a030a5d0")
-	)
-	(junction
-		(at 147.32 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fdd16dd-e211-4049-aa7a-744f85632db1")
-	)
-	(junction
-		(at 147.32 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81d3326d-5403-423b-9c90-f95644919978")
-	)
-	(junction
-		(at 142.24 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8255e6fd-c425-44fd-9707-b6fe3400ffbb")
-	)
-	(junction
-		(at 137.16 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f0da7ea-a614-4fc5-a67c-febc6569776a")
-	)
-	(junction
-		(at 137.16 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90fe4bb2-d547-443b-80e3-2b74011005fa")
-	)
-	(junction
-		(at 142.24 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93a043a7-d21f-4943-909e-2b5bb8bbb43e")
-	)
-	(junction
 		(at 142.24 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e75143b-4e14-4bf4-8469-c570fdb1dab2")
 	)
 	(junction
-		(at 129.54 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aba834cc-6da8-450b-b750-88440f812194")
-	)
-	(junction
-		(at 147.32 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aed07d6f-88fc-4a0e-9ef6-8c16e70cf7fb")
-	)
-	(junction
-		(at 137.16 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3b10dd3-7721-41d2-a95f-463cece47f2d")
-	)
-	(junction
-		(at 137.16 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9d66a1d-f221-40f3-96a2-57d109cebf94")
-	)
-	(junction
 		(at 137.16 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bd4a2682-28dc-4412-9c11-c5ab5cebf218")
+		(uuid "9fb97a10-496b-418f-af84-33ea9b1d0bfa")
 	)
 	(junction
 		(at 129.54 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7bd4b77-738f-4082-955d-a229b491e299")
+		(uuid "a89657ad-278d-4012-8d80-e75b6ffcde6c")
 	)
 	(junction
-		(at 147.32 107.95)
+		(at 137.16 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d3c69e21-c21f-426d-8b55-d8a91fd7b3a7")
+		(uuid "b490496b-967e-4408-8ffc-0e2dd4e67e4d")
 	)
 	(junction
-		(at 129.54 90.17)
+		(at 137.16 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f416cf49-9334-41e0-9ba1-cbf19aabeb7d")
+		(uuid "b58736c3-b9eb-44be-823e-215873a3b706")
 	)
-	(wire
-		(pts
-			(xy 171.45 120.65) (xy 147.32 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "007eec48-f4a0-41ea-b049-30f85753ad27")
+	(junction
+		(at 129.54 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c479480b-e303-4ad9-96f8-31acaf6228e9")
+	)
+	(junction
+		(at 137.16 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf852a61-e371-42a6-b4ec-4180a0a01454")
+	)
+	(junction
+		(at 171.45 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfc24ce5-9c2a-4bea-97ba-bdd4e97e9d7c")
 	)
 	(wire
 		(pts
@@ -840,26 +941,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 107.95) (xy 147.32 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "099ff9a8-ad74-4845-b194-ae11df254077")
-	)
-	(wire
-		(pts
-			(xy 129.54 110.49) (xy 129.54 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b94e5f0-57f5-48e6-bda2-4e7511d539ce")
-	)
-	(wire
-		(pts
 			(xy 137.16 107.95) (xy 142.24 107.95)
 		)
 		(stroke
@@ -870,7 +951,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 72.39) (xy 147.32 72.39)
+			(xy 142.24 72.39) (xy 171.45 72.39)
 		)
 		(stroke
 			(width 0)
@@ -890,23 +971,33 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 97.79) (xy 171.45 120.65)
+			(xy 171.45 85.09) (xy 171.45 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1490ff68-871e-41f6-929d-dda496f94cd9")
+	)
+	(wire
+		(pts
+			(xy 129.54 102.87) (xy 129.54 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9cdb80-4b53-4720-9f3d-2c22230e6474")
+	)
+	(wire
+		(pts
+			(xy 171.45 97.79) (xy 171.45 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1ce10fc5-b285-4495-bcdb-5785f9be741a")
-	)
-	(wire
-		(pts
-			(xy 142.24 110.49) (xy 147.32 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d8d8bda-819d-44df-a9bd-27dacdfff667")
 	)
 	(wire
 		(pts
@@ -920,27 +1011,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 120.65) (xy 147.32 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "202c1eda-b4c6-488b-b147-6b85d03c06c5")
-	)
-	(wire
-		(pts
-			(xy 142.24 82.55) (xy 147.32 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21ba56f9-7d36-42d9-8e8c-8f04c54d8bfb")
-	)
-	(wire
-		(pts
-			(xy 171.45 72.39) (xy 171.45 95.25)
+			(xy 171.45 72.39) (xy 171.45 85.09)
 		)
 		(stroke
 			(width 0)
@@ -960,23 +1031,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 82.55) (xy 129.54 77.47)
+			(xy 129.54 115.57) (xy 129.54 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4693b4e4-af03-4f69-a502-ab20cb9b473c")
-	)
-	(wire
-		(pts
-			(xy 142.24 97.79) (xy 147.32 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48e71a87-ba5c-486c-a079-fe6c17aa2faa")
+		(uuid "419b42bd-35d1-46fa-a131-6ba5c16abf8d")
 	)
 	(wire
 		(pts
@@ -990,13 +1051,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 107.95) (xy 147.32 110.49)
+			(xy 171.45 107.95) (xy 171.45 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a055d07-5044-4739-b988-e268e159dea4")
+		(uuid "51ec3188-5eb6-4d39-a24d-bcf1fc53377c")
 	)
 	(wire
 		(pts
@@ -1010,16 +1071,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 85.09) (xy 147.32 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "618e11d9-4cd8-4b65-a353-41230113d082")
-	)
-	(wire
-		(pts
 			(xy 142.24 110.49) (xy 142.24 111.76)
 		)
 		(stroke
@@ -1027,16 +1078,6 @@
 			(type default)
 		)
 		(uuid "64602622-5804-4d8c-b709-dc4296d9c9c8")
-	)
-	(wire
-		(pts
-			(xy 142.24 107.95) (xy 147.32 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "649c9979-545b-4e3e-a385-0750a166e6b3")
 	)
 	(wire
 		(pts
@@ -1050,13 +1091,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 95.25) (xy 147.32 97.79)
+			(xy 129.54 77.47) (xy 129.54 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74e145e7-5912-412f-bf50-b3703d24494d")
+		(uuid "7305f2fe-617e-42ea-90fd-4b6bc6da0ca3")
 	)
 	(wire
 		(pts
@@ -1080,6 +1121,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 85.09) (xy 194.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81301726-f8a7-4265-bbd4-98e65a5cc0a8")
+	)
+	(wire
+		(pts
 			(xy 142.24 120.65) (xy 142.24 119.38)
 		)
 		(stroke
@@ -1090,17 +1141,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 97.79) (xy 147.32 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a80bed-3660-42ad-ad09-6bb3a82928b6")
-	)
-	(wire
-		(pts
-			(xy 142.24 120.65) (xy 147.32 120.65)
+			(xy 142.24 120.65) (xy 171.45 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1120,13 +1161,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 95.25) (xy 147.32 95.25)
+			(xy 194.31 104.14) (xy 194.31 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aab9437c-5c52-474d-84ce-1354a46a5962")
+		(uuid "9a622c1b-ef2d-45c0-9f14-46f8172d8c11")
 	)
 	(wire
 		(pts
@@ -1137,26 +1178,6 @@
 			(type default)
 		)
 		(uuid "ab0f9c2c-b770-42a0-9e3a-b2867890db77")
-	)
-	(wire
-		(pts
-			(xy 147.32 72.39) (xy 171.45 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba67bb04-7217-4971-910f-0c6da5d180b0")
-	)
-	(wire
-		(pts
-			(xy 147.32 110.49) (xy 147.32 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba83615e-db44-48ca-94df-48efac9e223d")
 	)
 	(wire
 		(pts
@@ -1180,37 +1201,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 97.79) (xy 129.54 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4a1bab9-3efb-4b90-af4c-63ab6ec2fd94")
-	)
-	(wire
-		(pts
-			(xy 147.32 82.55) (xy 147.32 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7a6d31b-e723-464f-b5fd-e803cf0fba96")
-	)
-	(wire
-		(pts
-			(xy 147.32 72.39) (xy 147.32 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c828d46f-03db-4290-ad6b-becc65cbb8c5")
-	)
-	(wire
-		(pts
-			(xy 129.54 115.57) (xy 129.54 120.65)
+			(xy 129.54 110.49) (xy 129.54 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1230,26 +1221,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 85.09) (xy 147.32 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d20b8d75-8c73-44df-aa32-53134a08eeed")
-	)
-	(wire
-		(pts
-			(xy 147.32 82.55) (xy 147.32 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e61e527d-cadd-4b81-b588-32bc15b9e718")
-	)
-	(wire
-		(pts
 			(xy 137.16 120.65) (xy 142.24 120.65)
 		)
 		(stroke
@@ -1260,13 +1231,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 95.25) (xy 147.32 93.98)
+			(xy 171.45 85.09) (xy 194.31 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee149a8d-60f0-4009-9d6b-11d24cd0c310")
+		(uuid "f0ac4069-76fd-4776-919b-2d5f03bc1413")
+	)
+	(wire
+		(pts
+			(xy 194.31 107.95) (xy 171.45 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa76a9d3-b71e-4191-904b-bec649307a65")
 	)
 	(wire
 		(pts
@@ -1276,11 +1257,11 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f0f80f7e-ca6d-4a40-8ed1-e9f047386ce1")
+		(uuid "fce061a6-edba-4be0-bebe-ce44d48d6d4b")
 	)
 	(wire
 		(pts
-			(xy 129.54 102.87) (xy 129.54 107.95)
+			(xy 129.54 97.79) (xy 129.54 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1311,16 +1292,16 @@
 		(uuid "dce1bfe1-c7a5-4963-a057-4638ae69b739")
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 134.62 102.87 0)
+		(lib_id "Transistor_BJT:TIP41")
+		(at 134.62 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1b368994-a503-471b-9231-7d60272c0cb1")
-		(property "Reference" "Q3"
-			(at 125.984 101.346 0)
+		(uuid "2a8b35d9-cb57-4e29-bb57-4b9bde8a820b")
+		(property "Reference" "Q4"
+			(at 124.968 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,8 +1309,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
-			(at 121.158 103.886 0)
+		(property "Value" "TIP31"
+			(at 122.174 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,8 +1318,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:2n3904"
-			(at 139.7 104.775 0)
+		(property "Footprint" "Library:tip31"
+			(at 140.97 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1348,8 +1329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 134.62 102.87 0)
+		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,171 +1339,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 134.62 102.87 0)
+		(property "Description" "6A Ic, 40V Vce, Power NPN Transistor, TO-220"
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "42428cad-0806-41d0-8e10-8c6fce64ebe5")
 		)
 		(pin "3"
-			(uuid "f9a39e1a-c5b8-4fef-909c-73c809c29709")
-		)
-		(pin "2"
-			(uuid "d29a2695-cca1-4936-b50a-0001c84e5b7d")
-		)
-		(instances
-			(project "Cap Bank Rev 2"
-				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 134.62 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1fa352ff-3903-423f-899b-460caaa3f021")
-		(property "Reference" "Q2"
-			(at 125.984 88.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 121.158 91.186 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:2n3904"
-			(at 139.7 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "9bf7b8a0-8a79-4b55-ab84-b4bd86110294")
 		)
 		(pin "1"
-			(uuid "7a4be213-0f87-446e-ba72-d2694ef364cc")
-		)
-		(pin "3"
-			(uuid "c3cfd255-f256-44af-8670-208da1b081ce")
+			(uuid "ff767139-4401-4b94-83b5-b39f3c37ff21")
 		)
 		(pin "2"
-			(uuid "a2b52870-e2ee-4fd1-8201-645147a8336f")
+			(uuid "6aadfef4-e0c0-4d08-bc49-31aaa477a3f8")
 		)
 		(instances
 			(project "Cap Bank Rev 2"
 				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 133.35 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ae12da2-9bd3-435a-b95a-5d64807144df")
-		(property "Reference" "R4"
-			(at 127.508 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20k"
-			(at 133.35 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 133.35 97.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f922bd0-6222-401c-843f-87e6a536e176")
-		)
-		(pin "2"
-			(uuid "28d069b0-30e1-449d-b630-d4f433a19792")
-		)
-		(instances
-			(project "Cap Bank Rev 2"
-				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
-					(reference "R4")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -1740,75 +1578,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5037baac-9f95-4471-9826-f3c9acbdc30e")
-		(property "Reference" "R5"
-			(at 128.524 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 130.048 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 133.35 99.568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82730172-cb6c-4d9d-865e-52771ac9a474")
-		)
-		(pin "2"
-			(uuid "9f502b32-a682-4331-9ab5-ce37c2650b5d")
-		)
-		(instances
-			(project "Cap Bank Rev 2"
-				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 133.35 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1877,6 +1646,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:TIP41")
+		(at 134.62 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5711d95a-e70d-40ec-8354-bb528811dac7")
+		(property "Reference" "Q3"
+			(at 124.968 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TIP31"
+			(at 122.174 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:tip31"
+			(at 140.97 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "6A Ic, 40V Vce, Power NPN Transistor, TO-220"
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "07621f0f-f46d-4bed-b61e-02316b4b9e2c")
+		)
+		(pin "1"
+			(uuid "0e27a63f-1163-4fc6-8ec7-5ccfddcb2fe1")
+		)
+		(pin "2"
+			(uuid "eb6e2542-0a27-404b-b583-84f7c8ca7a29")
+		)
+		(instances
+			(project "Cap Bank Rev 2"
+				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 133.35 107.95 90)
 		(unit 1)
@@ -1884,7 +1728,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "67b1dc11-982a-42a5-b7bf-050d3c890d4e")
+		(uuid "580cd5e6-95bd-4f6b-860d-6c797d8f11d9")
 		(property "Reference" "R6"
 			(at 127.508 107.95 90)
 			(effects
@@ -1930,10 +1774,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8090347c-4589-4a0f-8cdf-252b56ff4307")
+			(uuid "62809e43-20ac-4935-b736-7f714d2e001c")
 		)
 		(pin "2"
-			(uuid "0bf2f0bc-9252-44bd-a230-5013eb910b2c")
+			(uuid "b78cf2f5-3d58-40a2-a210-6b3f314afb52")
 		)
 		(instances
 			(project "Cap Bank Rev 2"
@@ -1946,33 +1790,32 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 85.09 90)
+		(at 133.35 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6ab68f5b-499e-4360-ac82-5afa4a1c3105")
-		(property "Reference" "R3"
-			(at 128.524 85.09 90)
+		(uuid "67ee12c2-2e93-4c51-89b1-64c41f2a2c2f")
+		(property "Reference" "R8"
+			(at 127.508 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 130.048 88.9 90)
+		(property "Value" "20k"
+			(at 133.35 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 133.35 86.868 90)
+			(at 133.35 122.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +1824,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 85.09 0)
+			(at 133.35 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +1833,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 85.09 0)
+			(at 133.35 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,15 +1842,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "4421e6e4-00d3-4a75-9e59-b0cfb0e899e7")
+			(uuid "aa45aeb5-9a19-4847-9ea1-a115a3bad655")
 		)
 		(pin "2"
-			(uuid "35b1a39c-ed74-44c0-8083-aa863d7a06b2")
+			(uuid "9a008596-3abe-45d6-a2f2-4c15effdcb2e")
 		)
 		(instances
 			(project "Cap Bank Rev 2"
 				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
-					(reference "R3")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 194.31 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69005bb1-ef26-475a-b5e4-c3f8b5b1b0a3")
+		(property "Reference" "D1"
+			(at 198.12 100.6474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 198.12 103.1874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6869045-a312-476c-aa2c-cad65694e8f4")
+		)
+		(pin "2"
+			(uuid "0b9e5ca6-246f-4bb8-8da5-54f35742f989")
+		)
+		(instances
+			(project ""
+				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2084,16 +2006,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 134.62 77.47 0)
+		(lib_id "Device:R")
+		(at 133.35 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9a2ba6d2-ada6-4757-b1b1-aba4fd75f65a")
-		(property "Reference" "Q1"
-			(at 125.984 75.946 0)
+		(uuid "81e23833-515f-4d4b-8dbf-abe9559e195f")
+		(property "Reference" "R7"
+			(at 128.524 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,8 +2023,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
-			(at 121.158 78.486 0)
+		(property "Value" "~"
+			(at 130.048 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,29 +2032,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:2n3904"
-			(at 139.7 79.375 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 133.35 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 134.62 77.47 0)
+		(property "Datasheet" "~"
+			(at 133.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 134.62 77.47 0)
+		(property "Description" "Resistor"
+			(at 133.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,18 +2060,154 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c6702d6-a640-449f-b0c1-f8c0e41a0cee")
-		)
-		(pin "3"
-			(uuid "a96df07e-96f1-4c4a-ad1e-f216785cbcc9")
+			(uuid "7551974a-e731-4732-ad89-6853a0aa0706")
 		)
 		(pin "2"
-			(uuid "7d6e8a86-caae-44a2-9848-56ed31eae4f7")
+			(uuid "fb903c0f-4c7d-4bcf-a0b7-a5a2476b3594")
 		)
 		(instances
 			(project "Cap Bank Rev 2"
 				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
-					(reference "Q1")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 194.31 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8731eb36-b54b-41b8-b054-3ab01f510ba7")
+		(property "Reference" "R9"
+			(at 196.85 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000"
+			(at 196.85 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 192.532 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 194.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6eef1cae-480e-4afc-87fb-ac4b6ff5e198")
+		)
+		(pin "1"
+			(uuid "e19ebf0a-b451-4aeb-ae86-05ac3e7df58d")
+		)
+		(instances
+			(project ""
+				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 133.35 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a6b1f7b-e87b-4286-a817-5530f535f726")
+		(property "Reference" "R5"
+			(at 128.524 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 130.048 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 133.35 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9303ae63-bce8-4cd7-94e2-d14765c07e28")
+		)
+		(pin "2"
+			(uuid "e64304ab-622d-4abb-b733-ea4c458afd72")
+		)
+		(instances
+			(project "Cap Bank Rev 2"
+				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2299,6 +2354,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:TIP41")
+		(at 134.62 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b14146a6-bfdd-4898-82df-b21521b56cfa")
+		(property "Reference" "Q2"
+			(at 124.968 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TIP31"
+			(at 122.174 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:tip31"
+			(at 140.97 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "6A Ic, 40V Vce, Power NPN Transistor, TO-220"
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7923ebdf-6910-43a6-8dda-01e38fb292f3")
+		)
+		(pin "1"
+			(uuid "29bb4020-2ba6-42ed-8ecb-778f87dc14b9")
+		)
+		(pin "2"
+			(uuid "6bfb335a-14c5-4450-86e8-b44457cb0710")
+		)
+		(instances
+			(project "Cap Bank Rev 2"
+				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 133.35 82.55 90)
 		(unit 1)
@@ -2367,84 +2497,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 133.35 120.65 90)
+		(lib_id "Transistor_BJT:TIP41")
+		(at 134.62 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d2b1ebd1-5dfc-4c51-8888-3c4d5171311b")
-		(property "Reference" "R8"
-			(at 127.508 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20k"
-			(at 133.35 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 133.35 122.428 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "326a25f5-d86e-4d68-9109-3f6ec525821c")
-		)
-		(pin "2"
-			(uuid "d5391ff0-7229-4420-b820-fd33d7968646")
-		)
-		(instances
-			(project "Cap Bank Rev 2"
-				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 133.35 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7578eb3-aad8-4eb9-9226-0246b6f3dab5")
-		(property "Reference" "R7"
-			(at 128.524 110.49 90)
+		(uuid "bdc1707b-602e-494a-8617-cace5a27b0f6")
+		(property "Reference" "Q1"
+			(at 124.968 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,8 +2514,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 130.048 114.3 90)
+		(property "Value" "TIP31"
+			(at 122.174 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,77 +2523,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 133.35 112.268 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79fd8e4d-4c05-4bea-8e3c-be7aba0d591d")
-		)
-		(pin "2"
-			(uuid "4aaa1044-8085-45ff-9a0b-953fa4da2cd3")
-		)
-		(instances
-			(project "Cap Bank Rev 2"
-				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 134.62 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ebf98a9a-0c8f-4b2d-ac39-8a4fd42f3286")
-		(property "Reference" "Q4"
-			(at 125.984 114.046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 121.158 116.586 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:2n3904"
-			(at 139.7 117.475 0)
+		(property "Footprint" "Library:tip31"
+			(at 140.97 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,8 +2534,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 134.62 115.57 0)
+		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+			(at 134.62 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,8 +2544,79 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 134.62 115.57 0)
+		(property "Description" "6A Ic, 40V Vce, Power NPN Transistor, TO-220"
+			(at 134.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c8000b6e-b2f3-40c9-850c-8fdd23f64ae8")
+		)
+		(pin "1"
+			(uuid "13c80b20-2fc0-400b-9189-73a11cf1a285")
+		)
+		(pin "2"
+			(uuid "3fb904a6-e2b8-40ad-bc72-faa09c19838a")
+		)
+		(instances
+			(project ""
+				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 133.35 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8ccd7a4-e954-4687-91ea-6d27a01f882a")
+		(property "Reference" "R4"
+			(at 127.508 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 133.35 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 133.35 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,18 +2625,84 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9476a03-dd0f-48dc-a7a3-36f5f490acc4")
-		)
-		(pin "3"
-			(uuid "7017e495-951c-4a8f-a508-8da5f11dffe6")
+			(uuid "e57a06a8-37e0-4941-9fac-5c6dbd320d27")
 		)
 		(pin "2"
-			(uuid "60b90a18-5549-424e-8276-9938997313da")
+			(uuid "293dd59f-061a-4c0a-bf4f-8ac5a71c6a45")
 		)
 		(instances
 			(project "Cap Bank Rev 2"
 				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
-					(reference "Q4")
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 133.35 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6a14b07-81ba-43e7-9304-fbef30179252")
+		(property "Reference" "R3"
+			(at 128.524 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 130.048 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 133.35 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e15a714-03fc-4d39-8bf0-4729c1d30f39")
+		)
+		(pin "2"
+			(uuid "3facba3e-6a87-486d-a57f-38967f37d28f")
+		)
+		(instances
+			(project "Cap Bank Rev 2"
+				(path "/4b0ebc39-e487-4677-8c88-ef1e87bd21d1"
+					(reference "R3")
 					(unit 1)
 				)
 			)
