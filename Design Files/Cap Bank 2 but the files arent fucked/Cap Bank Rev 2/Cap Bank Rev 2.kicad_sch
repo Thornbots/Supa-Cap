@@ -1011,6 +1011,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 95.25) (xy 137.16 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb10e21-8c64-4c1a-97ed-a0a31fa34083")
+	)
+	(wire
+		(pts
 			(xy 171.45 72.39) (xy 171.45 85.09)
 		)
 		(stroke
@@ -1038,6 +1048,16 @@
 			(type default)
 		)
 		(uuid "419b42bd-35d1-46fa-a131-6ba5c16abf8d")
+	)
+	(wire
+		(pts
+			(xy 137.16 82.55) (xy 137.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45da9c9d-c94b-4c42-b2d2-8e9f625b371d")
 	)
 	(wire
 		(pts
@@ -1088,6 +1108,16 @@
 			(type default)
 		)
 		(uuid "6e5c29a9-40aa-4a2b-ba3a-2330bc2612ac")
+	)
+	(wire
+		(pts
+			(xy 137.16 107.95) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e96d827-4970-43a6-93b1-8e7dd57cb22e")
 	)
 	(wire
 		(pts
@@ -1318,7 +1348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:tip31"
+		(property "Footprint" "Library:tip31sideways"
 			(at 140.97 117.475 0)
 			(effects
 				(font
@@ -1672,7 +1702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:tip31"
+		(property "Footprint" "Library:tip31sideways"
 			(at 140.97 104.775 0)
 			(effects
 				(font
@@ -2093,7 +2123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "1740"
 			(at 196.85 93.9799 0)
 			(effects
 				(font
@@ -2380,7 +2410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:tip31"
+		(property "Footprint" "Library:tip31sideways"
 			(at 140.97 92.075 0)
 			(effects
 				(font
@@ -2523,7 +2553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:tip31"
+		(property "Footprint" "Library:tip31sideways"
 			(at 140.97 79.375 0)
 			(effects
 				(font

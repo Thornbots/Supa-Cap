@@ -1,0 +1,208 @@
+(footprint "tip31sideways"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "TIP31C ")
+	(property "Reference" "Q3"
+		(at 0 -0.4318 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "80b51117-c9a2-42d1-9bc0-70b11a917210")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TIP31"
+		(at 0 -0.4318 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "287e9dac-1a7f-48be-bb4c-5b73bef01c0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54ea4bdb-8f0f-4106-a445-7b978ad020a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "6A Ic, 40V Vce, Power NPN Transistor, TO-220"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84a9414e-b3ec-47f2-bba7-d53e0cb9d072")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5 5)
+		(end 5 21)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6bfcd0f1-0875-4958-9264-dbf2035a791d")
+	)
+	(fp_circle
+		(center -7.112 0)
+		(end -6.9088 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7adddafc-22b9-438f-9483-244bfee51e3e")
+	)
+	(fp_circle
+		(center 0 18)
+		(end 3 18)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c452eb65-339a-4bf2-ad14-2d7e40397ff1")
+	)
+	(fp_circle
+		(center 0 18)
+		(end 1.85 18)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "747c951c-0b59-4ae7-b6e7-01dcc72505d6")
+	)
+	(fp_line
+		(start 5 5)
+		(end -5 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "9d3102c2-c875-4201-85b4-62277e261b85")
+	)
+	(fp_line
+		(start -5.207 -2.7305)
+		(end -5.207 1.8669)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "89005325-7fc5-46a9-a8c9-e27b0d24de71")
+	)
+	(fp_line
+		(start -5.207 1.8669)
+		(end 5.207 1.8669)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "acbe490b-f3bb-4624-a4b6-97c565a268e9")
+	)
+	(fp_line
+		(start -2.794 0)
+		(end -2.286 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96169810-aacf-4fc5-9402-09f93194c387")
+	)
+	(fp_line
+		(start -2.54 0.254)
+		(end -2.54 -0.254)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c53b081-9940-45b6-a060-1c374cb87a6d")
+	)
+	(fp_line
+		(start 5.207 1.8669)
+		(end 5.207 -2.7305)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca3d7e1f-66bc-4a29-8222-9c9aa2965283")
+	)
+	(fp_circle
+		(center -4.699 0)
+		(end -4.4958 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a8cadb6c-9468-4edf-8bb1-03c0843ab9f6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.4318 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a28994f8-5360-4647-8639-f2f5288b0964")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 1.651 1.651)
+		(drill 1.143)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6b1769c4-0a2f-495e-99e7-812db22a46e4")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.651 1.651)
+		(drill 1.143)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "52d1717d-849d-4c12-87fa-6d2e89cafac6")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.651 1.651)
+		(drill 1.143)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "436afb56-fbbd-4337-bb25-e56f79eb69b1")
+	)
+	(embedded_fonts no)
+)
